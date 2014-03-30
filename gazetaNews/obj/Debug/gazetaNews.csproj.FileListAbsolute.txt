@@ -1,0 +1,8 @@
+D:\Dropbox\c#\Projects\Gazeta.pl\gazetaNews\bin\Debug\gazetaNews.dll
+D:\Dropbox\c#\Projects\Gazeta.pl\gazetaNews\bin\Debug\gazetaNews.pdb
+D:\Dropbox\c#\Projects\Gazeta.pl\gazetaNews\obj\Debug\gazetaNews.csprojResolveAssemblyReference.cache
+D:\Dropbox\c#\Projects\Gazeta.pl\gazetaNews\obj\Debug\gazetaNews.dll
+D:\Dropbox\c#\Projects\Gazeta.pl\gazetaNews\obj\Debug\gazetaNews.pdb
+D:\Dropbox\c#\Projects\Gazeta.pl\gazetaNews\bin\Debug\HtmlAgilityPack.dll
+D:\Dropbox\c#\Projects\Gazeta.pl\gazetaNews\bin\Debug\HtmlAgilityPack.pdb
+D:\Dropbox\c#\Projects\Gazeta.pl\gazetaNews\bin\Debug\HtmlAgilityPack.xml

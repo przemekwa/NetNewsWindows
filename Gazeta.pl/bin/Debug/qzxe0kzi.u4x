@@ -1,0 +1,1610 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pl">
+<!-- HP 2013 w.live.  -->
+<head>
+    <title>Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia</title>
+    <meta charset="iso-8859-2">
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/> 
+
+	<meta name="application-name" content="Gazeta.pl" />
+	<meta name="msapplication-tooltip" content="Portal Gazeta.pl" />
+	<meta name="msapplication-starturl" content="http://www.gazeta.pl/0,0.html" />
+	<meta name="msapplication-window" content="width=1024;height=768" />
+		
+	<meta name="msapplication-navbutton-color" content="#F16E89" />
+	<meta name="msapplication-task" content="name=Wiadomości; action-uri=http://wiadomosci.gazeta.pl/Wiadomosci/0,0.html; icon-uri=/favicon.ico" />
+	<meta name="msapplication-task" content="name=Blogi; action-uri=http://www.blox.pl/html; icon-uri=/favicon.ico" />
+	<meta name="msapplication-task" content="name=Praca; action-uri=http://gazetapraca.pl/gazetapraca/0,0.html; icon-uri=/favicon.ico" />
+	<meta name="msapplication-task" content="name=Forum; action-uri=http://forum.gazeta.pl/forum/0,0.html; icon-uri=/favicon.ico" /> 
+    <meta name="google-site-verification" content="5085Ij1x9RsFKORhZyjV5Q9U_gK39xdwTOTC9E1qmkE" />
+    <meta content="Serwisy lokalne w 26 miastach. Serwisy tematyczne: sport, rozrywka, zdrowie, kobieta, technologie, praca, pieniądze, biznes, film, muzyka, motoryzacja, radio. Informacje, wydarzenia, blogi, forum. Portal Agory SA." name="Description" />
+    <meta content="gazeta,wyborcza,informacje,wiadomości,news,wydarzenia,sport,rozrywka,gospodarka,giełda,prognoza pogody,kursy,agora,praca,biznes,forum,komputer,gry,technologie,film,kobieta,ogłoszenia,oferty,auto,moto,zdrowie,turystyka,email,poczta,czat,blogi,telewizja,ekstraklasa" name="Keywords" />
+    <link rel="alternate" type="application/rss+xml" title="Wiadomości - Gazeta.pl" href="http://serwisy.gazeta.pl/aliasy/rss_hp/wiadomosci.xml" /> 
+    <link rel="alternate" type="text/html" media="handheld" href="http://m.gazeta.pl" title="Mobile/PDA" />
+    <link rel="search" type="application/opensearchdescription+xml" href="http://www.gazeta.pl/aliasy/ie8/searchBox.xml" title="Wyszukaj w gazeta.pl" />
+    
+ <!-- for new 404 -->
+ <script>
+ var gazeta_404={root:null, readHash:function(){var h = new RegExp(/(\?|\&)status=hp404(\&|$)/).test(window.location.search);if(h!='' && h==true)gazeta_404.probe()},probe:function(){if(document.body&&document.body.childNodes.length){gazeta_404.createErrorHTML()}else{setTimeout(gazeta_404.probe,1)}},createErrorHTML:function(){var htm='<div id="g404_overlay_holder_bg"></div><div id="g404_overlay"><div id="g404_overlay_bg"></div><div id="g404_overlay_inner"><div id="g404_close"><span>x</span></div><h1 class="first">Nie znaleziono strony o podanym adresie</h1><p>Przepraszamy. Strona, kt\u00f3rej szukasz nie zosta\u0142a odnaleziona.</p><p>Prawdopodobnie zosta\u0142a skasowana, zmieniono jej nazw\u0119 albo zosta\u0142a czasowo usuni\u0119ta.</p> </div></div>';gazeta_404.root=document.createElement('div');gazeta_404.root.setAttribute('id','g404_overlay_holder');gazeta_404.root.innerHTML=htm;document.body.insertBefore(gazeta_404.root,document.body.firstChild);gazeta_404.setOpacity(document.getElementById('g404_overlay_holder_bg'),'70');gazeta_404.setOpacity(document.getElementById('g404_overlay_bg'),'60');document.getElementById('g404_overlay').style.top=((document.documentElement.clientHeight-document.getElementById('g404_overlay').offsetHeight)/2)+'px';gazeta_404.root.style.visibility="visible";gazeta_404.aEv(document.getElementById('g404_close'),'click',function(){document.body.removeChild(gazeta_404.root)});gazeta_404.aEv(document.getElementById('g404_overlay_holder'), 'click',function(){document.body.removeChild(gazeta_404.root)})},aEv:function(obj,type,fn){if(obj.addEventListener){obj.addEventListener(type,fn,false)}else if(obj.attachEvent){obj["e"+type+fn]=fn;obj[type+fn]=function(){obj["e"+type+fn](window.event)};obj.attachEvent("on"+type,obj[type+fn])}},setOpacity:function(el,val){el.style.opacity=val/100;el.style.filter='alpha(opacity='+val+')'}};gazeta_404.readHash();
+ </script>
+ <!-- /for new 404 -->
+ 
+  
+
+   	
+		<link rel="stylesheet" type="text/css" href="http://static.gazeta.pl/css/hp/x2/2.9.3/hp-min.cssgz"> 
+	
+	
+    <script type="text/javascript" src="http://biv.gazeta.pl/info/regulations/cookie/main_cookie.js?t=1396170451576"></script>
+    <noscript><a href="http://serwisy.gazeta.pl/O_nas/1,111259,8856779,Ochrona_prywatnosci.html" style="margin:0 auto; max-width: 940px; line-height: 0;"><img src="http://cookie.gazeta.pl/noScriptCookie.servlet?t=1396170451576" style="display: block !important; margin:0 auto; "/></a></noscript>
+    
+    <!--[if lt IE 9]>
+	<script>
+	var e = ("abbr,article,aside,audio,canvas,datalist,details," +
+	"figure,footer,header,hgroup,mark,menu,meter,nav,output," +
+	"progress,section,time,video").split(',');
+	for (var i = 0; i < e.length; i++) {
+	document.createElement(e[i]);
+	}
+	</script>
+	<![endif]--> 
+ 	<script>
+ 		document.write('<scr'+'ipt type=\"text/javascript\" src=\"http://ad.adview.pl/ad/BehavPixel.servlet?dir=hp&dx=43346"><\/script>');
+ 	</script>
+    
+    <script>
+    var locationUrl = window.location+'';
+    var urlParamIndex = locationUrl.indexOf("?adToken=");
+	if (urlParamIndex < 0 ) urlParamIndex = locationUrl.indexOf("&adToken=");
+    var urlParamVal = "";
+    if(urlParamIndex >=0) {
+    	var urlValIndex = urlParamIndex+9;
+        var isEnd = locationUrl.indexOf("&", urlValIndex);
+		urlParamVal = (isEnd >=0 ? locationUrl.substring(urlValIndex, isEnd) : locationUrl.substring(urlValIndex));
+    }
+    var adToken = (urlParamVal == "" ? "" : "&adToken="+urlParamVal);
+	function readCookie(name){
+		var nameEQ=name+"=";
+		var ca=document.cookie.split(';');
+		for(i=0;i<ca.length;i++){
+			var c=ca[i];
+			while(c.charAt(0)==' ') c=c.substring(1,c.length);
+			if(c.indexOf(nameEQ)==0) return c.substring(nameEQ.length,c.length);
+		}
+		return null;
+	}
+
+var profileBan;
+if (typeof profileCookie != 'undefined'){
+	profileBan = profileCookie; 
+}else {
+	profileBan = null;
+}	
+
+var asParams;
+if (typeof n_pbt != 'undefined' && n_pbt != ''){
+	asParams = '&asParams=' + n_pbt; 
+}else {
+	asParams = '';
+}
+	
+	var profileCookie=readCookie('USER_PROF');
+    document.write('<scr'+'ipt src="http://ad.adview.pl/ad/GetBanAndFile?dir=hp&jsp=30&dx=43346&kat=out&t='+(new Date()).getTime()+adToken+'&p='+profileCookie+asParams+'&slowo=hp_lokale"><\/script>');
+    </script>
+    <script>if(typeof gazetaplputban2=='function') { gazetaplputban2() } else if(typeof typyPutBan!="undefined") {typyPutBan.push(2)} ;</script>
+    <script><!--
+    var banBG = [];
+    if (top.frames.length!=0) top.location=self.document.location;
+    function createCookie(name,value,days,hours,domain){
+	if(days){
+		var date=new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000)+(hours*60*60*1000));
+		var expires="; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie=name+"="+value+expires+"; path=/"+((domain)?';domain='+domain : '');
+	}
+    // --></script>  
+    
+  	<iframe onload="onLoadCookieMsg();" style="position: absolute; top: -20000px;" width="0" height="0" src="http://cookie.gazeta.pl/info/regulations/cookie/cookie.htm" id="cookieMsg"></iframe>
+	
+    <!-- (C)2000-2006 Gemius SA - gemiusAudience  -->
+<script><!--
+    var pp_gemius_identifier = new String('AqVLoK8.0HijX98O5Uop3MTVj1OB2qd8Q2lQ1CBPFz..97/arg=43346/sarg=|'+profileCookie);
+//--></script>
+<script src="http://www.gazeta.pl/info/http/xgemius.js"></script>
+
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-426268-1']);
+	_gaq.push(['_setCampaignCookieTimeout', 0]);
+	_gaq.push(['_setCustomVar',1,'nr_dzialu',43346,3]);
+	_gaq.push(['_trackPageview']);
+	(function() {
+	var ga = document.createElement('script');
+	ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+	'.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+
+<script type="text/javascript">
+    var src = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+    new Image().src = src+'adsearch.adkontekst.pl/deimos/tracking/?tid=82652&reid=773&expire=720&nc='+new Date().getTime();
+</script>
+
+</head>
+<body>
+	<script type="text/javascript">
+    var xxyEcom = "";
+    var gazeta_pl = {};
+    if (document.body) {
+      var clname = ['js_enabled'];
+      var bancnt = 0;
+      if (!banXxByPoz[3] == false && typeof(banKiller3)=='undefined') bancnt++;
+      if (!banXxByPoz[96] == false) bancnt++;
+      if (!banXxByPoz[11] == false || !banXxByPoz[43] == false) bancnt += 2;
+      switch (bancnt) {
+      case 1: clname.push('k3ban1'); break;
+      case 2: clname.push('k3ban2'); break;
+      }
+      document.body.className = clname.join(' ');
+    }  
+	</script>
+    <script type="text/javascript">if(typeof gazetaplputban49=='function') { gazetaplputban49() } else if(typeof typyPutBan!="undefined") {typyPutBan.push(49)};</script>
+    <!-- iw49jedynka:8170 HP 30 -->    
+    
+    
+   
+    <div id="page">        
+    <div id="k123">
+      <div id="w1">
+	      <div id="head">
+	      	<header id="pageHeader" class="fb">
+<div>
+<p class="sup">
+<!--[if IE]><a href="javascript:void(0)">Startuj z Gazeta.pl</a><![endif]-->
+</p>
+<map id="LinkArea:NavTop" name="winieta">
+<area shape="rect" coords="0,0,41,43" title="Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia" alt="Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia" href="http://www.gazeta.pl/0,0.html">
+<area shape="rect" coords="49,0,210,43" title="Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia" alt="Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia" href="http://www.gazeta.pl/0,0.html">
+</map>
+<img usemap="#winieta" src="http://bi.gazeta.pl/im/1/10452/m10452761.gif" alt="Gazeta.pl - Polska i świat - wiadomości | informacje | wydarzenia">
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fgazetapl&amp;layout=button_count&amp;show_faces=true&amp;width=400&amp;action=like&amp;font&amp;colorscheme=dark&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:21px;" allowTransparency="true"></iframe>
+</div>
+</header><!-- UZREditor --><!--11295631,aliasOf--><!-- htmEOF -->
+	      	<section id="pageSearch">
+<form action="http://szukaj.gazeta.pl/wyszukaj/artykul" method="get" data-target="gazeta">
+<div class="c0">
+<input type="text" name="query" value="" x-webkit-speech="x-webkit-speech" data-main="1" class="gazeta">
+<div class="c1"><div data-trigger="1"></div><ul>
+<li class="gazeta">Gazeta.pl</li>
+<li class="internet">Internet</li>
+<li class="forum">Forum</li>
+<li class="praca">Praca <em>oferty pracy</em></li>
+<li class="dom">Dom <em>mieszkania, domy, działki</em></li>
+<li class="moto">Moto <em>szukaj samochodu dla siebie</em></li>
+<li class="okazje">Okazje.info</li>
+</ul></div>
+</div>
+<p class="c2"><button type="submit">Szukaj</button></p>
+
+</form>
+<form action="http://szukaj.gazeta.pl/internet/0,0.html" method="get" data-target="internet" class="hidden">
+<p class="hidden"><input type="hidden" name="slowo" value="" data-main="1"></p>
+
+</form>
+<form action="http://serwisy.gazeta.pl/paramsCC" method="get" data-target="forum" class="hidden">
+<p class="hidden"><input type="hidden" name="query" value="" data-main="1"></p>
+<p class="hidden">
+<input type="hidden" name="url" value="http://forum.gazeta.pl/forumSearch.do">
+</p>
+</form>
+<form action="http://serwisy.gazeta.pl/paramsCC" method="post" data-target="praca" class="hidden">
+<p class="hidden"><input type="hidden" name="words" value="" data-main="1"></p>
+<p class="hidden">
+<input type="hidden" name="url" value="http://gazetapraca.pl/classifiedsFindUrl.action">
+<input type="hidden" value="/0,0.html" name="errorPage">
+</p>
+</form>
+<form action="http://www.domiporta.pl/oferty" method="get" data-target="dom" class="hidden">
+<p class="hidden"><input type="hidden" name="opis" value="" data-main="1"></p>
+<p class="hidden">
+<input type="hidden" name="searchFormPageSimple" value="/oferty">
+<input type="hidden" name="searchtype" value="mini">
+<input type="hidden" name="CategoryID" value="190">
+<input type="hidden" name="Rynek" value="W">
+<input type="hidden" name="SortDate" value="SortDate">
+</p>
+</form>
+<form action="http://www.autotrader.pl/search-form-post.asp" method="get" data-target="moto" class="hidden">
+<p class="hidden"><input type="hidden" name="opis" value="" data-main="1"></p>
+<p class="hidden">
+<input type="hidden" name="searchtype" value="mini">
+<input type="hidden" name="SortColumn" value="InsertionDate">
+<input type="hidden" name="SortDirection" value="desc">
+<input type="hidden" name="CategoryID" value="130">
+</p>
+</form>
+<form action="#" method="post" data-target="okazje" class="hidden">
+<p class="hidden"><input type="hidden" name="null" value="" data-main="1"></p>
+
+</form>
+</section><!-- UZREditor --><!--10692962,aliasOf--><!-- htmEOF -->
+	      	<nav id="pageNavTop">
+<ul>
+<li class="mail">
+<a id="LinkArea:NavLinks" href="http://poczta.gazeta.pl/#NavLinks" title="Poczta"><span>Poczta</span></a>
+</li>
+<li class="forum">
+<a id="LinkArea:NavLinks" href="http://forum.gazeta.pl/#NavLinks" title="Forum"><span>Forum</span></a>
+</li>
+<li class="job">
+<a id="LinkArea:NavLinks" href="http://gazetapraca.pl/?utm_medium=AutopromoHP&amp;utm_source=HP&amp;utm_campaign=a_praca&amp;utm_content=HP_ikonka#NavLinks" title="Praca"><span>Praca</span></a>
+</li>
+<li class="blog">
+<a id="LinkArea:NavLinks" href="http://www.blox.pl/#NavLinks" title="Blogi"><span>Blogi</span></a>
+</li>
+<li class="radio">
+<a id="LinkArea:NavLinks" href="http://fm.tuba.pl/#NavLinks" title="Radio"><span>Radio</span></a>
+</li>
+<li class="domiporta">
+<a id="LinkArea:NavLinks" href="http://www.domiporta.pl#NavLinks" title="Domy"><span>Domy</span></a>
+</li>
+</ul>
+</nav><!-- UZREditor --><!--10692870,aliasOf--><!-- htmEOF -->
+		  </div> <!-- #head -->
+       	 <div id="nav">
+			
+  	           	<div id="navH">
+<ul class="l1">
+<li ><a href="http://www.gazeta.pl/0,0.html#TRNavPoz">Gazeta.pl</a></li>
+<li ><a href="http://wiadomosci.gazeta.pl/wiadomosci/0,0.html#TRNavPoz">Wiadomości</a></li>
+<li ><a href="http://www.sport.pl/sport/0,0.html#TRNavPoz">Sport</a></li>
+<li ><a href="http://wyborcza.biz/biznes/0,0.html#TRNavPoz">Biznes</a></li>
+<li ><a href="http://technologie.gazeta.pl/internet/0,0.html#TRNavPoz">Technologie</a></li>
+<li ><a href="http://kultura.gazeta.pl/kultura/0,0.html#TRNavPoz">Kultura</a></li>
+<li ><a href="http://kobieta.gazeta.pl/kobieta/0,0.html#TRNavPoz">Kobieta</a></li>
+<li ><a href="http://www.edziecko.pl/edziecko/0,0.html#TRNavPoz">Dziecko</a></li>
+<li ><a href="http://zdrowie.gazeta.pl/Zdrowie/0,0.html#TRNavPoz">Zdrowie</a></li>
+<li ><a href="http://podroze.gazeta.pl/podroze/0,0.html#TRNavPoz">Podróże</a></li>
+<li ><a href="http://www.plotek.pl/plotek/0,0.html#TRNavPoz">Plotek</a></li>
+<li ><a href="http://www.gazeta.tv/Wideo/0,0.html#TRNavPoz">Wideo</a></li>
+<li class="more"><a href="#TRNavPoz">Więcej</a></li>
+</ul>
+<div class="l2">
+<ul class="sl1">
+<li >
+<a href="http://gazetapraca.pl/0,0.html#TRNavPoz">Gazeta Praca</a>
+</li>
+<li >
+<a href="http://www.domiporta.pl/#TRNavPoz">Domiporta</a>
+</li>
+<li >
+<a href="http://wyborcza.pl/0,0.html#TRNavPoz">Wyborcza.pl</a>
+</li>
+<li >
+<a href="http://www.tokfm.pl/Tokfm/0,0.html#TRNavPoz">TOK FM</a>
+</li>
+<li >
+<a href="http://metromsn.gazeta.pl/metromsn/0,0.html#TRNavPoz">Metro MSN</a>
+</li></ul>
+<ul class="sl2">
+<li >
+<a href="http://tv.gazeta.pl/program_tv/0,0.html#TRNavPoz">Program TV</a>
+</li>
+<li >
+<a href="http://kinoplex.gazeta.pl/vod/0,0.html#TRNavPoz">VOD</a>
+</li>
+<li >
+<a href="http://horoskopy.gazeta.pl/horoskopy/0,0.html#TRNavPoz">Horoskopy</a>
+</li>
+<li >
+<a href="http://lotto.gazeta.pl/lotto/0,0.html#TRNavPoz">Wyniki Lotto</a>
+</li>
+<li class="awarded">
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/0,130433.html#TRNavPoz">Alert24</a>
+</li></ul>
+</div>
+</div><!-- UZREditor --><!--14279062,aliasOf--><!-- htmEOF -->
+            
+	      	<nav id="pageNav">
+<ul class="buttons">
+<li>
+<section  class="lists" id="servicesList">
+<ul class="first"><li>
+<header>Informacyjne</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://wiadomosci.gazeta.pl/wiadomosci/0,130433.html#TRNavPoz" title="Alert 24">Alert 24</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.pl/0,75404.html#TRNavPoz" title="Duży Format">Duży Format</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.pl/duzy_kadr/0,0.html#TRNavPoz" title="Duży Kadr">Duży Kadr</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.pl/0,0.html#TRNavPoz" title="Gazeta Wyborcza">Gazeta Wyborcza</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://miasta.gazeta.pl/miasto/0,0.html#TRNavPoz" title="Wiadomości Lokalne">Wiadomości Lokalne</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://metromsn.gazeta.pl/metromsn/0,0.html#TRNavPoz" title="Metro MSN">Metro MSN</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://pogoda.gazeta.pl/pogoda/0,0.html#11-PL#TRNavPoz" title="Prognoza pogody">Prognoza pogody</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.tokfm.pl/Tokfm/0,0.html#TRNavPoz" title="Tokfm.pl">Tokfm.pl</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wiadomosci.gazeta.pl/wiadomosci/0,0.html#TRNavPoz" title="Wiadomości">Wiadomości</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.gazeta.tv/Wideo/0,0.html#TRNavPoz" title="Wideo">Wideo</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://lotto.gazeta.pl/lotto/0,0.html#TRNavPoz" title="Wyniki Lotto">Wyniki Lotto</a></li>
+</ul>
+</li>
+<li>
+<header>Sport i rekreacja</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://polskabiega.sport.pl/polskabiega/0,0.html#TRNavPoz" title="Bieganie">Bieganie</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.ciacha.net/ciacha/0,0.html#TRNavPoz" title="Ciacha">Ciacha</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/pilka/0,65039.html#TRNavPoz" title="Ekstraklasa">Ekstraklasa</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://fitness.sport.pl/fitness/0,0.html#TRNavPoz" title="Fitness">Fitness</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://nanarty.sport.pl/narty/0,0.html#TRNavPoz" title="Narty">Narty</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://off.sport.pl/off/0,0.html#TRNavPoz" title="Offsport">Offsport</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://polskanarowery.sport.pl/msrowery/0,0.html#TRNavPoz" title="Rowery">Rowery</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/sport/0,0.html#TRNavPoz" title="Sport.pl">Sport.pl</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.zczuba.pl/zczuba/0,0.html#TRNavPoz" title="Z Czuba">Z Czuba</a></li>
+</ul>
+</li>
+</ul><ul><li>
+<header>Biznes</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/Firma/0,101588.html#TRNavPoz" title="Firma">Firma</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/Gieldy/0,0.html#TRNavPoz" title="Giełda">Giełda</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.komunikaty.pl/komunikaty/0,0.html#TRNavPoz" title="Komunikaty">Komunikaty</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://krs.wyborcza.biz/#TRNavPoz" title="KRS">KRS</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://pieniadze.gazeta.pl/pieniadz/0,0.html#TRNavPoz" title="Pieniądze">Pieniądze</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/Waluty/0,0.html#TRNavPoz" title="Waluty">Waluty</a></li>
+</ul>
+</li>
+<li>
+<header>Rozrywka</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://cjg.gazeta.pl/#TRNavPoz" title="Co Jest Grane">Co Jest Grane</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://deser.pl/deser/0,0.html#TRNavPoz" title="Deser">Deser</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://film.gazeta.pl/nowy_film/0,0.html#TRNavPoz" title="Film">Film</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gryonline.gazeta.pl/#TRNavPoz" title="Gry online">Gry online</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://kinoplex.gazeta.pl/vod/0,0.html#TRNavPoz" title="Kinoplex">Kinoplex</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.kotek.pl/kotek/0,0.html#TRNavPoz" title="Kotek">Kotek</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://tuba.pl/tubapl/0,0.html#TRNavPoz" title="Muzyka">Muzyka</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.naprzerwie.pl/naprzerwie/0,0.html#TRNavPoz" title="Na Przerwie">Na Przerwie</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,0.html#TRNavPoz" title="Plotek">Plotek</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://polygamia.pl/Polygamia/0,0.html#TRNavPoz" title="Polygamia">Polygamia</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://tv.gazeta.pl#TRNavPoz" title="Program TV">Program TV</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wiadomosci.gazeta.pl/raczkowski/0,0.html#TRNavPoz" title="Raczkowski">Raczkowski</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://rockradio.tuba.pl/RockRadio/0,0.html#TRNavPoz" title="Rock Radio">Rock Radio</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.tuba.fm/#TRNavPoz" title="Tuba.FM">Tuba.FM</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://zloteprzeboje.tuba.fm/zloteprzeboje/0,0.html#TRNavPoz" title="Radio Złote Przeboje">Radio Złote Przeboje</a></li>
+</ul>
+</li>
+</ul><ul><li>
+<header>Lokalne</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://bialystok.gazeta.pl/bialystok/0,0.html#TRNavPoz" title="Białystok">Białystok</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://bielskobiala.gazeta.pl/bielskobiala/0,0.html#TRNavPoz" title="Bielsko-Biała">Bielsko-Biała</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://bydgoszcz.gazeta.pl/bydgoszcz/0,0.html#TRNavPoz" title="Bydgoszcz">Bydgoszcz</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://czestochowa.gazeta.pl/czestochowa/0,0.html#TRNavPoz" title="Częstochowa">Częstochowa</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gorzow.gazeta.pl/gorzow/0,0.html#TRNavPoz" title="Gorzów Wielkopolski">Gorzów Wlkp.</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://katowice.gazeta.pl/katowice/0,0.html#TRNavPoz" title="Katowice">Katowice</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://kielce.gazeta.pl/kielce/0,0.html#TRNavPoz" title="Kielce">Kielce</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://krakow.gazeta.pl/krakow/0,0.html#TRNavPoz" title="Kraków">Kraków</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://lublin.gazeta.pl/lublin/0,0.html#TRNavPoz" title="Lublin">Lublin</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://lodz.gazeta.pl/lodz/0,0.html#TRNavPoz" title="Łódź">Łódź</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://olsztyn.gazeta.pl/olsztyn/0,0.html#TRNavPoz" title="Olsztyn">Olsztyn</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://opole.gazeta.pl/opole/0,0.html#TRNavPoz" title="Opole">Opole</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://plock.gazeta.pl/plock/0,0.html#TRNavPoz" title="Płock">Płock</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://poznan.gazeta.pl/poznan/0,0.html#TRNavPoz" title="Poznań">Poznań</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://radom.gazeta.pl/radom/0,0.html#TRNavPoz" title="Radom">Radom</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://rzeszow.gazeta.pl/rzeszow/0,0.html#TRNavPoz" title="Rzeszów">Rzeszów</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://szczecin.gazeta.pl/szczecin/0,0.html#TRNavPoz" title="Szczecin">Szczecin</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://torun.gazeta.pl/torun/0,0.html#TRNavPoz" title="Toruń">Toruń</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://trojmiasto.gazeta.pl/trojmiasto/0,0.html#TRNavPoz" title="Trójmiasto">Trójmiasto</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://warszawa.gazeta.pl/warszawa/0,0.html#TRNavPoz" title="Warszawa">Warszawa</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wroclaw.gazeta.pl/wroclaw/0,0.html#TRNavPoz" title="Wrocław">Wrocław</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://zielonagora.gazeta.pl/zielonagora/0,0.html#TRNavPoz" title="Zielona Góra">Zielona Góra</a></li>
+</ul>
+</li>
+</ul><ul><li>
+<header>Życie i styl</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://www.edziecko.pl/edziecko#TRNavPoz" title="eDziecko">eDziecko</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://foch.pl/foch/0,0.html#TRNavPoz" title="Foch.pl">Foch.pl</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.groszki.pl/groszki/0,0.html#TRNavPoz" title="Groszki">Groszki</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://kobieta.gazeta.pl/kobieta/0,0.html#TRNavPoz" title="Kobieta">Kobieta</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://lula.pl/lula/0,0.html#TRNavPoz" title="Lula">Lula</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://horoskopy.gazeta.pl/horoskopy/0,0.html#TRNavPoz" title="Horoskopy">Horoskopy</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://kobieta.gazeta.pl/kobieta/0,107880.html#TRNavPoz" title="Miłość i seks">Miłość i seks</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://moto.pl/MotoPL/0,0.html#TRNavPoz" title="Moto.pl">Moto.pl</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://palcelizac.gazeta.pl/palcelizac/0,0.html#TRNavPoz" title="Palce lizać">Palce lizać</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://podroze.gazeta.pl/podroze/0,0.html#TRNavPoz" title="Podróże">Podróże</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://ugotuj.to/ugotuj/0,0.html#TRNavPoz" title="Ugotuj.to">Ugotuj.to</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://zdrowie.gazeta.pl/Zdrowie/0,0.html#TRNavPoz" title="Zdrowie">Zdrowie</a></li>
+</ul>
+</li>
+<li>
+<header>Magazyny</header>
+<ul class="bolded">
+<li><a id="LinkArea:TRNavPoz" href="http://avanti24.pl/moda/0,0.html#TRNavPoz" title="Avanti">Avanti</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://czterykaty.pl/czterykaty/0,0.html#TRNavPoz" title="Cztery Kąty">Cztery Kąty</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://domiwnetrze.pl/domiwnetrze/0,0.html#TRNavPoz" title="Dom i Wnętrze">Dom i Wnętrze</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://magazyn-kuchnia.pl/magazyn-kuchnia/0,0.html#TRNavPoz" title="Kuchnia">Kuchnia</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.logo24.pl/Logo24/0,0.html#TRNavPoz" title="Logo">Logo</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.e-ogrody.pl/Ogrody/0,0.html#TRNavPoz" title="Magnolia">Magnolia</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.swiatmotocykli.pl/Motocykle/0,0.html#TRNavPoz" title="Świat motocykli">Świat motocykli</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.wysokieobcasy.pl/wysokie-obcasy/0,0.html#TRNavPoz" title="Wysokie Obcasy">Wysokie Obcasy</a></li>
+</ul>
+</li>
+</ul><ul><li>
+<header>Edukacja i kariera</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/0,0.html#TRNavPoz" title="Gazeta Praca">Gazeta Praca</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.edulandia.pl/Edulandia/0,0.html#TRNavPoz" title="Edulandia">Edulandia</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://edu.gazeta.pl/edu/0,0.html#TRNavPoz" title="Encyklopedia">Encyklopedia</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://jak.gazeta.pl/jak/0,0.html#TRNavPoz" title="Jak">Jak</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.edulandia.pl/Matura/0,98378.html#TRNavPoz" title="Matura">Matura</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://podyplomowe.gazeta.pl/Podyplomowe/0,0.html#TRNavPoz" title="Studia podyplomowe">Studia podyplomowe</a></li>
+</ul>
+</li>
+<li>
+<header>Dom i Nieruchomości</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://www.bryla.pl/bryla/0,0.html#TRNavPoz" title="Bryła">Bryła</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.domosfera.pl/wnetrza/0,0.html#TRNavPoz" title="Domosfera">Domosfera</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://ladnydom.pl/budowa/0,0.html#TRNavPoz" title="Budowa i Remont">Budowa i Remont</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.domiporta.pl/#TRNavPoz" title="Domiporta">Domiporta</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://porady.domiporta.pl/poradnik/0,126868.html#TRNavPoz" title="Kredyty">Kredyty</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://ladnydom.pl/budowa/0,0.html#TRNavPoz" title="Ładny Dom">Ładny Dom</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.e-ogrody.pl/Ogrody/0,0.html#TRNavPoz" title="Ogrody">Ogrody</a></li>
+</ul>
+</li>
+<li>
+<header>Społeczności</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://www.blox.pl/html#TRNavPoz" title="Blox.pl">Blox.pl</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://forum.gazeta.pl/forum/#TRNavPoz" title="Forum">Forum</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://fotoforum.gazeta.pl/0,0.html#TRNavPoz" title="Fotoforum">Fotoforum</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://cafe.pl/ecafe/#TRNavPoz" title="Randki">Randki</a></li>
+</ul>
+</li>
+</ul><ul><li>
+<header>Technologie</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://www.sciagnij.pl/#TRNavPoz" title="Darmowe programy">Darmowe programy</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/internet/0,0.html#TRNavPoz" title="Technologie">Technologie</a></li>
+</ul>
+</li>
+<li>
+<header>Usługi</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://aianetwork.pl/#TRNavPoz" title="AIA - partnerstwa Agory">AIA - partnerstwa Agory</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.publio.pl/#TRNavPoz" title="Audiobooki">Audiobooki i e-booki</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.autotrader.pl/pl/motoryzacja/start-moto.asp#TRNavPoz" title="AutoTrader">AutoTrader</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.kupsprzedaj.pl/#TRNavPoz" title="Darmowe ogłoszenia">Darmowe ogłoszenia</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://katalog.gazeta.pl/#TRNavPoz" title="Katalog stron">Katalog stron</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://kreatorwww.gazeta.pl/#TRNavPoz" title="Kreator WWW">Kreator WWW</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://kulturalnysklep.pl/#TRNavPoz" title="Kulturalny sklep">Kulturalny sklep</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://nekrologi.wyborcza.pl/0,0.html#TRNavPoz" title="Nekrologi">Nekrologi</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://newslettery.gazeta.pl/newslettery/0,0.html#TRNavPoz" title="Newslettery">Newslettery</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.okazje.info.pl/#TRNavPoz" title="Okazje.info">Okazje.info</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://poczta.gazeta.pl/#TRNavPoz" title="Poczta">Poczta</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://serwisy.gazeta.pl/rss/0,0.html#TRNavPoz" title="RSS">RSS</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.payper.pl/#TRNavPoz" title="Reklama PayPer">Reklama PayPer</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.tabor24.pl/#TRNavPoz" title="Tabor24">Tabor24</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.6win.pl/6win/0,0.html#TRNavPoz" title="6win.pl">6win.pl</a></li>
+</ul>
+</li>
+</ul>
+</section>
+</li>
+<li>
+<p class="right" id="showOverlayPopular"><a href="#">Zobacz popularne tematy</a></p>
+<section id="overlayPopular" class="overlay" >
+<header>Zobacz popularne tematy <a href="#" data-action="close">X</a></header>
+<ul class="first"><li>
+<header>Sport</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/moto/0,116601.html#TRNavPoz" title="Adam Małysz">Adam Małysz</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/celebrities/0,83535.html#TRNavPoz" title="Agnieszka Radwańska">Agnieszka Radwańska</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/pilka/0,123089.html?tag=Artur+Boruc#TRNavPoz" title="Artur Boruc">Artur Boruc</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/pilka/0,65039.html#TRNavPoz" title="Ekstraklasa">Ekstraklasa</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/euro2012/0,109080.html?tag=Franciszek+Smuda#TRNavPoz" title="Franciszek Smuda">Franciszek Smuda</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/euro2012/0,109080.html?tag=Wojciech+Szcz%EAsny#TRNavPoz" title="Wojciech Szczęsny">Wojciech Szczęsny</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/euro2012/0,109080.html?tag=Jakub+B%B3aszczykowski#TRNavPoz" title="Kuba Błaszczykowski">Kuba Błaszczykowski</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/euro2012/0,127101.html#TRNavPoz" title="Robert Lewandowski">Robert Lewandowski</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/euro2012/0,109080.html?tag=Andrij+Szewczenko#TRNavPoz" title="Andrij Szewczenko">Andrij Szewczenko</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/euro2012/0,109080.html?tag=Cristiano+Ronaldo#TRNavPoz" title="Cristiano Ronaldo">Cristiano Ronaldo</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/euro2012/0,109080.html?tag=Fernando+Torres#TRNavPoz" title="Fernando Torres">Fernando Torres</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/euro2012/0,109080.html?tag=Iker+Casillas#TRNavPoz" title="Iker Casillas">Iker Casillas</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/euro2012/0,109080.html?tag=Zlatan+Ibrahimovi%E6#TRNavPoz" title="Zlatan Ibrahamović">Zlatan Ibrahamović</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/pilka/0,123089.html?tag=Grzegorz+Lato#TRNavPoz" title="Grzegorz Lato">Grzegorz Lato</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/euro2012/0,109080.html?tag=Joanna+Mucha#TRNavPoz" title="Joanna Mucha">Joanna Mucha</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/sport-krakow/0,115698.html#TRNavPoz" title="Wisła Kraków">Wisła Kraków</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/sport-warszawa/0,124557.html#TRNavPoz" title="Legia Warszawa">Legia Warszawa</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/sport-warszawa/0,124558.html#TRNavPoz" title="Polonia Warszawa">Polonia Warszawa</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/sport-poznan/0,124479.html#TRNavPoz" title="Lech Poznań">Lech Poznań</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/F1/0,0.html#TRNavPoz" title="Formuła 1">Formuła 1</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/celebrities/0,96807.html#TRNavPoz" title="Justyna Kowalczyk">Justyna Kowalczyk</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/celebrities/0,112119.html#TRNavPoz" title="Kamil Stoch">Kamil Stoch</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/lekkoatletyka/0,0.html#TRNavPoz" title="Lekkoatletyka">Lekkoatletyka</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/pilka/0,65041.html#TRNavPoz" title="Liga Mistrzów">Liga Mistrzów</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/celebrities/0,101583.html#TRNavPoz" title="Maja Włoszczowska">Maja Włoszczowska</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/koszykowka/0,116399.html#TRNavPoz" title="Marcin Gortat">Marcin Gortat</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/pilka/0,96012.html#TRNavPoz" title="Piłkarskie transfery">Piłkarskie transfery</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/euro2012/0,109077.html#TRNavPoz" title="Reprezentacja">Reprezentacja</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/F1/0,96398.html#TRNavPoz" title="Robert Kubica">Robert Kubica</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sport.pl/celebrities/0,83533.html#TRNavPoz" title="Tomasz Adamek">Tomasz Adamek</a></li>
+</ul>
+</li>
+</ul><ul><li>
+<header>Rozrywka</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=maja+sablewska#TRNavPoz" title="Maja Sablewska">Maja Sablewska</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=kasia+tusk#TRNavPoz" title="Kasia Tusk">Kasia Tusk</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=angelina%20jolie#TRNavPoz" title="Angelina Jolie">Angelina Jolie</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=anna%20mucha#TRNavPoz" title="Anna Mucha">Anna Mucha</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=weronika+rosati#TRNavPoz" title="Weronika Rosati">Weronika Rosati</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=colin%20farrell#TRNavPoz" title="Collin Farrell">Collin Farrell</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=doda#TRNavPoz" title="Doda">Doda</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=edyta%20g%F3rniak#TRNavPoz" title="Edyta Górniak">Edyta Górniak</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=tatiana+okupnik#TRNavPoz" title="Tatiana Okupnik">Tatiana Okupnik</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=kate+middleton#TRNavPoz" title="Kate Middleton">Kate Middleton</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=ewa+farna#TRNavPoz" title="Ewa Farna">Ewa Farna</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=kuba%20wojew%F3dzki#TRNavPoz" title="Kuba Wojewódzki">Kuba Wojewódzki</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=m+jak+mi%B3o%B6%E6#TRNavPoz" title="M jak Miłość">M jak Miłość</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=mam%20talent#TRNavPoz" title="Mam talent">Mam talent</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=alicja+bachleda-curu%B6#TRNavPoz" title="Alicja Bachleda Curuś">Alicja Bachleda Curuś</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://trojmiasto.gazeta.pl/trojmiasto/0,80809.html#TRNavPoz" title="Open'er festival">Open'er festival</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://fm.tuba.pl/gatunek/Disco+Polo#TRNavPoz" title="Disco Polo">Disco Polo</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=the+voice+of+poland#TRNavPoz" title="The Voice of Poland">The Voice of Poland</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=top+model.+zosta%F1+modelk%B1#TRNavPoz" title="Top Model">Top Model</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.kotek.pl/kotek/0,87207.html?tag=przed+%B6witem#TRNavPoz" title="Przed Świtem">Przed Świtem</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.plotek.pl/plotek/0,78882,398208420.html?tag=x-factor#TRNavPoz" title="X-Factor">X-Factor</a></li>
+</ul>
+</li>
+</ul><ul><li>
+<header>Technologie</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/internet/0,104750.html?tag=nokia+500#TRNavPoz" title="Nokia 500">Nokia 500</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sciagnij.pl/programy/p/Windows-Przegladarki_WWW-Przegladarki_internetowe-Opera/9643#TRNavPoz" title="Opera">Opera</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sciagnij.pl/programy/p/Windows-Biuro-Pakiety_biurowe-OpenOfficeorg/523#TRNavPoz" title="OpenOffice">OpenOffice</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sciagnij.pl/programy/0,0.html#TRNavPoz" title="Darmowe programy">Darmowe programy</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gry.polygamia.pl/graj/gatunek-Akcji/155976648/Dead+Space+2/p/#TRNavPoz" title="Dead Space 2">Dead Space 2</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gry.polygamia.pl/graj/gatunek-Akcji/156220881/Deus+Ex:+Human+Revolution/p/#TRNavPoz" title="DeusEx 3">DeusEx 3</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sciagnij.pl/programy/p/Windows-Dystrybucje-Dom-Windows_81_Preview/312844#TRNavPoz" title="Windows 8.1">Windows 8.1</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gry.polygamia.pl/graj/gatunek-Fabularne/155976655/Dragon+Age+II/p/#TRNavPoz" title="Dragon Age 2">Dragon Age 2</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sciagnij.pl/programy/p/Windows-Internet-Przegladarki-Mozilla_Firefox/8716#TRNavPoz" title="Firefox">Firefox</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gry.polygamia.pl/graj/0,0.html#TRNavPoz" title="Encyklopedia gier">Encyklopedia gier</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gry.polygamia.pl/graj/gatunek-Logiczne/156229169/Portal+2/p/#TRNavPoz" title="Portal 2">Portal 2</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/technoporady/1,120173,14227270,Delta_Search___jak_usunac_wyszukiwarke_i_przywrocic.html#TRNavPoz" title="Delta Search">Delta Search</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/internet/0,104750.html?tag=internet+explorer#TRNavPoz" title="Internet Explorer">Internet Explorer</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/internet/0,104750.html?tag=ipad#TRNavPoz" title="iPad">iPad</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/internet/0,104750.html?tag=iphone#TRNavPoz" title="iPhone">iPhone</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gry.polygamia.pl/graj/gatunek-Akcji/156220707/BioShock:+Infinite/p/#TRNavPoz" title="BioShock: Infinite">BioShock: Infinite</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gry.polygamia.pl/graj/gatunek-Strzelanki/156220773/Battlefield+3/p/#TRNavPoz" title="Battlefield 3">Battlefield 3</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gry.polygamia.pl/graj/gatunek-Akcji/156230324/Mass+Effect+3/p/#TRNavPoz" title="Mass Effect 3">Mass Effect 3</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gry.polygamia.pl/graj/gatunek-Akcji/156221053/Grand+Theft+Auto+5/p/#TRNavPoz" title="GTA 5">GTA 5</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sciagnij.pl/programy/p/Windows-Biuro-Obsluga_PDF-Adobe_Reader/939#TRNavPoz" title="Adobe Reader">Adobe Reader</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sciagnij.pl/programy/p/Windows-Komunikatory_i_VoIP-Skype-Skype/396#TRNavPoz" title="Skype">Skype</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gry.polygamia.pl/graj/rok-2013#TRNavPoz" title="Gry 2013">Gry 2013</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gry.polygamia.pl/graj/gatunek-Akcji/156220864/Uncharted+3:+Drake%27s+Deception/p/#TRNavPoz" title="Uncharted 3">Uncharted 3</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.sciagnij.pl/programy/p/Windows-Przegladarki_WWW-Przegladarki_internetowe-Mozilla_Firefox/10453#TRNavPoz" title="Firefox 22">Firefox 22</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/internet/0,113841.html#TRNavPoz" title="Technologie mobilne">Technologie mobilne</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/internet/0,104750.html?tag=android#TRNavPoz" title="Android">Android</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/internet/0,104750.html?tag=windows+7#TRNavPoz" title="Windows 7">Windows 7</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/internet/0,104750.html?tag=smartfony#TRNavPoz" title="Smartfony">Smartfony</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/internet/0,104750.html?tag=windows+phone+8#TRNavPoz" title="Windows Phone 8">Windows Phone 8</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/internet/0,104750.html?tag=tablety#TRNavPoz" title="Tablety">Tablety</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/internet/0,104750.html?tag=iphone+5#TRNavPoz" title="I phone 5">Iphone 5</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://technologie.gazeta.pl/internet/0,104750.html?tag=youtube#TRNavPoz" title="YouTube">YouTube</a></li>
+</ul>
+</li>
+</ul><ul>
+<li>
+<header>Życie i styl</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://www.edziecko.pl/przed_ciaza/0,79775.html#TRNavPoz" title="Dni płodne">Dni płodne</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.edziecko.pl/ciaza_i_porod/0,0.html#TRNavPoz" title="Ciąża">Ciąża</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.edziecko.pl/przed_ciaza/0,87842.html#TRNavPoz" title="Zapłodnienie In Vitro">Zapłodnienie In Vitro</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.edziecko.pl/ciaza_i_porod/0,79337.html#TRNavPoz" title="Kalendarz ciąży">Kalendarz ciąży</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://odwazsie.gazeta.pl/odwagi/0,0.html#TRNavPoz" title="Diety">Diety</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://kobieta.gazeta.pl/kobieta/0,127066.html#TRNavPoz" title="Odchudzanie">Odchudzanie</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://lula.pl/lula/0,94089.html?tag=diy#TRNavPoz" title="DIY">DIY</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.groszki.pl/groszki/0,80228.html?tag=dodatki#TRNavPoz" title="Dodatki">Dodatki</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.groszki.pl/groszki/0,80228.html?tag=sukienki#TRNavPoz" title="Sukienki">Sukienki</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.groszki.pl/groszki/0,80228.html?tag=torebki#TRNavPoz" title="Torebki">Torebki</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.groszki.pl/groszki/0,80228.html?tag=reserved#TRNavPoz" title="Reserved">Reserved</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.groszki.pl/groszki/0,80228.html?tag=apart#TRNavPoz" title="Apart">Apart</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.groszki.pl/groszki/0,80228.html?tag=h%26m#TRNavPoz" title="H&amp;M">H&amp;M</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.groszki.pl/groszki/0,80228.html?tag=zara#TRNavPoz" title="Zara">Zara</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://lula.pl/lula/0,89890.html?tag=versace#TRNavPoz" title="Versace">Versace</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://lula.pl/lula/0,89890.html?tag=dior#TRNavPoz" title="Dior">Dior</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://lula.pl/lula/0,89890.html?tag=prada#TRNavPoz" title="Prada">Prada</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://lula.pl/lula/0,89890.html?tag=chanel#TRNavPoz" title="Chanel">Chanel</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://ugotuj.to/przepisy_kulinarne/0,87979,4920092.html#TRNavPoz" title="Drinki">Drinki</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://lula.pl/lula/0,111764.html#TRNavPoz" title="Fryzury">Fryzury</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://horoskopy.gazeta.pl/horoskopy/0,0.html#TRNavPoz" title="Horoskopy">Horoskopy</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://kobieta.gazeta.pl/kobieta/0,107880.html#TRNavPoz" title="Miłość i seks">Miłość i seks</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://podroze.gazeta.pl/podroze/0,0.html#TRNavPoz" title="Podróże">Podróże</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://kobieta.gazeta.pl/kobieta/0,107964.html?tag=psychologia#TRNavPoz" title="Psychologia">Psychologia</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://ugotuj.to/przepisy_kulinarne/0,0.html#TRNavPoz" title="Przepisy kulinarne">Przepisy kulinarne</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.publio.pl/wyznanie-crossa-sylvia-day,p87034.html#TRNavPoz" title="Wyznanie Crossa">Wyznanie Crossa</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://lula.pl/lula/0,89890.html?tag=quiz#TRNavPoz" title="Quizy">Quizy</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://kobieta.gazeta.pl/kobieta/0,107964.html?tag=uroda#TRNavPoz" title="Uroda">Uroda</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://zdrowie.gazeta.pl/Zdrowie/0,101580.html#TRNavPoz" title="Choroby">Choroby</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://zdrowie.gazeta.pl/Zdrowie/0,101459.html#TRNavPoz" title="Badania">Badania</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://lula.pl/lula/0,111761.html#TRNavPoz" title="Makijaże">Makijaże</a></li>
+</ul>
+</li>
+</ul><ul><li>
+<header>Gospodarka</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/banki/0,0.html#TRNavPoz" title="Banki">Banki</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/Firma/0,101966.html#TRNavPoz" title="Pomysł na biznes">Pomysł na biznes</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/finanse/0,107784.html#TRNavPoz" title="Ceny mieszkań">Ceny mieszkań</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/biznes/0,104259.html?tag=gaz+%B3upkowy#TRNavPoz" title="Gaz łupkowy w Polsce">Gaz łupkowy w Polsce</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/Gieldy/0,0.html#TRNavPoz" title="Giełda">Giełda</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/Emerytura/0,0.html#TRNavPoz" title="Emerytura">Emerytura</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/finanse/0,105601.html#TRNavPoz" title="Kredyty">Kredyty</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/biznes/0,104259.html?tag=kryzys+gospodarczy#TRNavPoz" title="Kryzys gospodarczy">Kryzys gospodarczy</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://pieniadze.gazeta.pl/Oszczedzanie/0,0.html#TRNavPoz" title="Oszczędzanie">Oszczędzanie</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/Waluty/0,111138,8932151,,,Kursy_srednie_walut_NBP,A.html#TRNavPoz" title="Kursy walut NBP">Kursy walut NBP</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/biznes/8,100971,9625909.html#TRNavPoz" title="Ile to kosztuje?">Ile to kosztuje?</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/biznes/0,104259.html?tag=Unia+Europejska#TRNavPoz" title="Unia Europejska">Unia Europejska</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://funduszeue.wyborcza.biz/FunduszeUE/0,0.html#TRNavPoz" title="Fundusze europejskie">Fundusze europejskie</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://funduszeue.wyborcza.biz/FunduszeUE/ue/w,,typ,dotacja,1#TRNavPoz" title="Dotacje dla firm">Dotacje dla firm</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.komunikaty.pl/komunikaty/3,79737.html?announcementTypeAlias=przetargi#TRNavPoz" title="Przetargi">Przetargi</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.komunikaty.pl/komunikaty/3,79737.html?announcementTypeAlias=nierch&amp;keyWords=licytacje+komornicze#TRNavPoz" title="Licytacje komornicze">Licytacje komornicze</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://ban.pl/linkedin/olinkedin/#TRNavPoz" title="Reklama w Linkedin">Reklama w Linkedin</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wiadomosci.gazeta.pl/wiadomosci/0,114916.html?tag=wybory+w+USA#TRNavPoz" title="Wybory w USA">Wybory w USA</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/Waluty/0,0.html#TRNavPoz" title="Waluty">Waluty</a></li>
+</ul>
+</li>
+<li>
+<header>Kariera</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl#TRNavPoz" title="Praca">Praca</a></li>
+<li><a id="LinkArea:TRNavPoz" href="tp://gazetapraca.pl/gazetapraca/0,67527.html#TRNavPoz" title="Praca za granicą">Praca za granicą</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/gazetapraca/0,74861.html#TRNavPoz" title="CV">CV</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/gazetapraca/0,91738.html#TRNavPoz" title="Kalkulator wynagrodzeń">Kalkulator wynagrodzeń</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/gazetapraca/0,75003.html#TRNavPoz" title="Praca w Norwegii">Praca w Norwegii</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/p-niemcy#TRNavPoz" title="Praca Niemcy">Praca Niemcy</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://wyborcza.biz/finanse/0,105725.html#TRNavPoz" title="Ubezpieczenia">Ubezpieczenia</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-warszawa#TRNavPoz" title="Praca Warszawa">Praca Warszawa</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-wroc%C5%82aw#TRNavPoz" title="Praca Wrocław">Praca Wrocław</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-pozna%C5%84#TRNavPoz" title="Praca Poznań">Praca Poznań</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-krak%C3%B3w#TRNavPoz" title="Praca Kraków">Praca Kraków</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-lublin#TRNavPoz" title="Praca Lublin">Praca Lublin</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-olsztyn#TRNavPoz" title="Praca Olsztyn">Praca Olsztyn</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-kielce#TRNavPoz" title="Praca Kielce">Praca Kielce</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-%C5%82%C3%B3d%C5%BA#TRNavPoz" title="Praca Łódź">Praca Łódź</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-bydgoszcz#TRNavPoz" title="Praca Bydgoszcz">Praca Bydgoszcz</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-p%C5%82ock#TRNavPoz" title="Praca Płock">Praca Płock</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-radom#TRNavPoz" title="Praca Radom">Praca Radom</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-bia%C5%82ystok#TRNavPoz" title="Praca Białystok">Praca Białystok</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-cz%C4%99stochowa#TRNavPoz" title="Praca Częstochowa">Praca Częstochowa</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/szukaj/m-toru%C5%84#TRNavPoz" title="Praca Toruń">Praca Toruń</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://gazetapraca.pl/gazetapraca/0,74866.html#TRNavPoz" title="List motywacyjny">List motywacyjny</a></li>
+</ul>
+</li>
+</ul><ul><li>
+<header>Edukacja</header>
+<ul class="bolded">
+<li><a id="LinkArea:TRNavPoz" href="http://www.edulandia.pl/studia/0,118673.html#TRNavPoz" title="Kierunki studiów">Kierunki studiów</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.edulandia.pl/matura/0,0.html#TRNavPoz" title="Matura 2013">Matura 2013</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.edulandia.pl/matura/0,117921.html#TRNavPoz" title="Matura z angielskiego">Matura z angielskiego</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.edulandia.pl/matura/0,117321.html#TRNavPoz" title="Matura z matematyki">Matura z matematyki</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.edulandia.pl/matura/0,117923.html#TRNavPoz" title="Matura z polskiego">Matura z polskiego</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.etutor.gazeta.pl/#TRNavPoz" title="Angielski online">Angielski online</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://slowniki.gazeta.pl/#TRNavPoz" title="Słowniki">Słowniki</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.edulandia.pl/studia/0,0.html#TRNavPoz" title="Studia">Studia</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.edulandia.pl/studia/0,126005,studia-krakow.html#TRNavPoz" title="Studia Kraków">Studia Kraków</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://szukaj.edulandia.pl/szukaj/1,25/Medyczne-Zdrowie,,,Studia-jednolite,#TRNavPoz" title="Studia medyczne">Studia medyczne</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://szukaj.edulandia.pl/szukaj/1,25/Prawo-i-Administracja,,Prawo,Studia-I-stopnia,#TRNavPoz" title="Studia prawo">Studia prawo</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://szukaj.edulandia.pl/szukaj/1,25/Psychologia-Socjolgia,,Psychologia,Studia-I-stopnia,#TRNavPoz" title="Studia psychologia">Studia psychologia</a></li>
+</ul>
+</li>
+
+<li>
+<header>Dom i budowa</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://kupmieszkanko.pl/#TRNavPoz" title="Nieruchomości">Nieruchomości</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://ladnydom.pl/budowa/0,106568.html#TRNavPoz" title="Projektowanie domów">Projektowanie domów</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://ladnydom.pl/budowa/0,106575.html#TRNavPoz" title="Okna i drzwi">Okna i drzwi</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://ladnydom.pl/budowa/0,106571.html#TRNavPoz" title="Fundamenty domu">Fundamenty domu</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://ladnydom.pl/budowa/0,106578.html#TRNavPoz" title="Instalacje elektryczne">Instalacje elektryczne</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.domosfera.pl/wnetrza/0,93228.html#TRNavPoz" title="Urządzanie kuchni">Urządzanie kuchni</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.domosfera.pl/wnetrza/0,93239.html?tag=aran%BFacja+wn%EAtrz#TRNavPoz" title="Aranżacja wnętrz">Aranżacja wnętrz</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://czterykaty.pl/czterykaty/0,57641.html#TRNavPoz" title="Urządzanie małego mieszkania">Urządzanie małego mieszkania</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://czterykaty.pl/czterykaty/0,57643.html#TRNavPoz" title="Urządzanie dużego mieszkania">Urządzanie dużego mieszkania</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.e-ogrody.pl/Ogrody/0,113393.html#TRNavPoz" title="Pielęgnacja ogrodu">Pielęgnacja ogrodu</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.e-ogrody.pl/Ogrody/0,113398.html#TRNavPoz" title="Encyklopedia roślin">Encyklopedia roślin</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://www.e-ogrody.pl/Ogrody/0,113380.html#TRNavPoz" title="Projektowanie ogrodów">Projektowanie ogrodów</a></li>
+</ul>
+</li>
+<li>
+<header>Motoryzacja</header>
+<ul >
+<li><a id="LinkArea:TRNavPoz" href="http://moto.pl/Testy/0,0.html#TRNavPoz" title="Testy samochodów">Testy samochodów</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://moto.pl/Testy/0,126861.html#TRNavPoz" title="Opinie o samochodach używanych">Opinie o samochodach używanych</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://moto.pl/Motocykle/0,113375.html#TRNavPoz" title="Testy motocykli">Testy motocykli</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://auto.moto.pl/samochody/klasapojazdu-Sportowe/1#TRNavPoz" title="Samochody sportowe">Samochody sportowe</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://auto.moto.pl/samochody/klasapojazdu-Luksusowe/1#TRNavPoz" title="Samochody luksusowe">Samochody luksusowe</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://auto.moto.pl/samochody/marka-AUDI/1#TRNavPoz" title="Audi">Audi</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://auto.moto.pl/samochody/marka-BMW/1#TRNavPoz" title="BMW">BMW</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://auto.moto.pl/samochody/marka-MERCEDES-BENZ/1#TRNavPoz" title="Mercedes">Mercedes</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://auto.moto.pl/samochody/marka-MERCEDES-BENZ/model-Klasa+A/1#TRNavPoz" title="Mercedes Klasy A">Mercedes Klasy A</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://auto.moto.pl/samochody/marka-MERCEDES-BENZ/model-Klasa+E/1#TRNavPoz" title="Mercedes Klasy E">Mercedes Klasy E</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://auto.moto.pl/samochody/typnadwozia-Kombi/1#TRNavPoz" title="Samochody Kombi">Samochody Kombi</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://info.wiadomosci.gazeta.pl/szukaj/wiadomosci/prawo+jazdy+am#TRNavPoz" title="Prawo jazdy AM">Prawo jazdy AM</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://auto.moto.pl/samochody/marka-OPEL/1#TRNavPoz" title="Opel">Opel</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://auto.moto.pl/samochody/marka-FORD/1#TRNavPoz" title="Ford">Ford</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://moto.pl/Motocykle/0,0.html#TRNavPoz" title="Motocykle">Motocykle</a></li>
+<li><a id="LinkArea:TRNavPoz" href="http://moto.pl/MotoPL/0,90142.html#TRNavPoz" title="Motodziennik">Motodziennik</a></li>
+</ul>
+</li>
+</ul>
+</section>
+</li>
+</ul>
+</nav><!-- UZREditor --><!--14465469,aliasOf--><!-- htmEOF -->
+	     </div>
+	      <div id="banP1"><script type="text/javascript">if(typeof gazetaplputban1=='function'){ gazetaplputban1() } else if(typeof typyPutBan!="undefined") {typyPutBan.push(1)};</script></div>
+      </div><!-- #w1 -->
+      <div id="w2">
+      	<div id="w2k23">
+      		
+		     
+		    <div class="mod_mlyn_DHP" data-mill="target"></div>
+		    <!--  --><!-- htmEOF -->
+		     
+		    
+	     	   <!--  --><!-- htmEOF -->
+	        
+      	</div><!-- #w2k1 -->
+      	<div id="w2k123">
+		 <div id="content"> 
+	        <div id="k2">
+		      <div class="maintopicHP" data-vr-zone="Maintopic">
+<article id="mt" class="scheme_normal title_normal" data-type="photo">
+<div class="wrap">
+<div class="c0 wide" data-vr-contentbox>
+<header>
+<h1>
+<a id="LinkArea:MT" href="http://wyborcza.biz/biznes/1,101558,15695690,Sciagasz_filmy_z_sieci__Sprawdz__czy_jestes_piratem.html#MT" title="Kilka prostych pytań i sprawdzisz, czy jesteś piratem. Rozwiewamy wątpliwości i odpowiadamy">Kilka prostych pytań i sprawdzisz, czy jesteś piratem. Rozwiewamy wątpliwości i odpowiadamy</a>
+</h1>
+</header>
+<div class="imgw">
+<a id="LinkArea:MT" href="http://wyborcza.biz/biznes/1,101558,15695690,Sciagasz_filmy_z_sieci__Sprawdz__czy_jestes_piratem.html#MT" title="Kilka prostych pytań i sprawdzisz, czy jesteś piratem. Rozwiewamy wątpliwości i odpowiadamy"><img src="http://bi.gazeta.pl/im/81/bb/ef/z15711105Q.jpg" alt="Kilka prostych pytań i sprawdzisz, czy jesteś piratem. Rozwiewamy wątpliwości i odpowiadamy"></a>
+</div>
+<div class="lead">
+<p class="first">
+<span class="text"><a id="LinkArea:MT" href="http://wyborcza.biz/biznes/1,101558,15695690,Sciagasz_filmy_z_sieci__Sprawdz__czy_jestes_piratem.html#MT"> Obejrzałeś film online. Jesteś piratem? Ściągnąłeś film, muzykę lub e-book. Jesteś piratem? Ściągnąłeś film i wrzuciłeś go na Chomikuj lub inny serwis. Jesteś piratem?</a></span>
+
+</p>
+<div class="fb">
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwyborcza.biz%2Fbiznes%2F1%2C101558%2C15695690%2CSciagasz_filmy_z_sieci__Sprawdz__czy_jestes_piratem.html&amp;layout=button_count&amp;show_faces=true&amp;width=400&amp;action=like&amp;font&amp;colorscheme=dark&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:21px;" allowTransparency="true"></iframe>
+</div>
+
+</div>
+</div>
+</div>
+</article>
+</div><!-- UZREditor --><!--11121670,aliasOf--><!-- htmEOF --><!-- /getFile.servlet?file=/aliasy/hp2012/maintopic_mt1.htm -->
+	          <div id="banP77"><script type='text/javascript'>if(typeof gazetaplputban77=='function') { gazetaplputban77() } else if(typeof typyPutBan!="undefined") {typyPutBan.push(77)};</script></div>
+	          <div id="box_news_all">           
+	            <script type="text/javascript">if (typeof gazeta_pl.hp_box_news == 'undefined') gazeta_pl.hp_box_news = [];</script>
+	            <ul>
+	             <!--  --><!-- htmEOF --><!-- /aliasy/hp2012/box_news/czolko.htm -->
+	             <!-- /aliasy/hp2012/box_news/relacja.htm -->
+	             <li id="news_czolko2" class="boxNews hslice entry-content" data-vr-zone="Czolka2">
+<article>
+<section class="body">
+<div class="module photo3">
+<ul>
+<li class="n2 n3 n4 n5 n6" data-vr-contentbox>
+<p class="title">
+<strong><span class="spec">nowe</span><a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114871,15711030,10_latka_do_papieza___Mojemu_tacie_grozi_deportacja__.html#BoxSlotII3img" title="10-latka do papieża: &quot;Mojemu tacie grozi deportacja&quot;. Wkrótce mężczyzna był wolny" id="LinkArea:BoxSlotII3img">10-latka do papieża: &quot;Mojemu tacie grozi deportacja&quot;. Wkrótce mężczyzna był wolny</a></strong>
+
+</p>
+<p class="imgw">
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114871,15711030,10_latka_do_papieza___Mojemu_tacie_grozi_deportacja__.html#BoxSlotII3img" title="10-latka do papieża: &quot;Mojemu tacie grozi deportacja&quot;. Wkrótce mężczyzna był wolny" id="LinkArea:BoxSlotII3img">
+<img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-172-110.gif" data-src="http://bi.gazeta.pl/im/86/bb/ef/z15711110H.jpg" alt="10-latka do papieża: &quot;Mojemu tacie grozi deportacja&quot;. Wkrótce mężczyzna był wolny">
+</a>
+</p>
+</li>
+<li class="" data-vr-contentbox>
+<p class="title">
+<strong><a href="http://www.plotek.pl/plotek/1,78649,15710946,Jest_nowe_zdjecie_Ksiecia_George_a__Czy_rodzina_Kate.html#BoxSlotII3img" title="Kate i William zaskakują i sami pokazują nowe zdjęcie z małym księciem. Urocze [FOTO]" id="LinkArea:BoxSlotII3img">Kate i William zaskakują i sami pokazują nowe zdjęcie z małym księciem. Urocze [FOTO]</a></strong>
+
+</p>
+<p class="imgw">
+<a href="http://www.plotek.pl/plotek/1,78649,15710946,Jest_nowe_zdjecie_Ksiecia_George_a__Czy_rodzina_Kate.html#BoxSlotII3img" title="Kate i William zaskakują i sami pokazują nowe zdjęcie z małym księciem. Urocze [FOTO]" id="LinkArea:BoxSlotII3img">
+<img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-172-110.gif" data-src="http://bi.gazeta.pl/im/22/bb/ef/z15711010H.jpg" alt="Kate i William zaskakują i sami pokazują nowe zdjęcie z małym księciem. Urocze [FOTO]">
+</a>
+</p>
+</li>
+<li class="n2" data-vr-contentbox>
+<p class="title">
+<strong><a href="http://www.domosfera.pl/wnetrza/1,93228,15684857,METOD___nowy_system_mebli_kuchennych_IKEA__Jak_zmieniaja.html#BoxSlotII3img" title="IKEA zmienia swój model kuchni. Ci, co mają &quot;starą&quot; wersję, nie będą zadowoleni" id="LinkArea:BoxSlotII3img">IKEA zmienia swój model kuchni. Ci, co mają &quot;starą&quot; wersję, nie będą zadowoleni</a></strong>
+
+</p>
+<p class="imgw">
+<a href="http://www.domosfera.pl/wnetrza/1,93228,15684857,METOD___nowy_system_mebli_kuchennych_IKEA__Jak_zmieniaja.html#BoxSlotII3img" title="IKEA zmienia swój model kuchni. Ci, co mają &quot;starą&quot; wersję, nie będą zadowoleni" id="LinkArea:BoxSlotII3img">
+<img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-172-110.gif" data-src="http://bi.gazeta.pl/im/92/ba/ef/z15710866H.jpg" alt="IKEA zmienia swój model kuchni. Ci, co mają &quot;starą&quot; wersję, nie będą zadowoleni">
+</a>
+</p>
+</li>
+</ul>
+</div>
+<div class="module photo1" data-vr-contentbox>
+<header><a href="http://wiadomosci.gazeta.pl/wiadomosci/5,114944,15701570,Ratownik_przeszukuje_gruzowisko_po_zejsciu_lawiny.html#BoxSlotIIMT" title="ONZ: To największe tego typu miejsce na świecie. Na granicy Kenii z Somalią [ZDJĘCIA TYGODNIA]" id="LinkArea:BoxSlotIIMT">ONZ: To największe tego typu miejsce na świecie. Na granicy Kenii z Somalią [ZDJĘCIA TYGODNIA]</a></header>
+<p class="imgw ">
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/5,114944,15701570,Ratownik_przeszukuje_gruzowisko_po_zejsciu_lawiny.html#BoxSlotIIMT" title="ONZ: To największe tego typu miejsce na świecie. Na granicy Kenii z Somalią [ZDJĘCIA TYGODNIA]" id="LinkArea:BoxSlotIIMT">
+<img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-620-240.gif" data-src="http://bi.gazeta.pl/im/94/ba/ef/z15710868Q.jpg" alt="ONZ: To największe tego typu miejsce na świecie. Na granicy Kenii z Somalią [ZDJĘCIA TYGODNIA]">
+</a>
+</p>
+</div>
+</section>
+</article>
+</li><!-- UZREditor --><!--11913475,aliasOf--><!-- htmEOF --><!-- /aliasy/hp2012/box_news/czolko2.htm -->
+	             <!--  --><!-- htmEOF --><!-- /aliasy/hp2012/box_news/wideo.htm -->
+	             <li class="boxNews" id="news_mtAreaEcom" data-vr-zone="mtArea"  >
+<ul class="col col1" data-colums="1">
+<li class="entry-content" data-rows-count="1">
+<article>
+<div class="module barHeader border  ecommerceBar  partner" data-vr-contentbox>
+<p>
+<a id="LinkArea:TREcomNav" href="http://kinoplex.gazeta.pl/vod/0,0.html?utm_source=HP&amp;utm_medium=AutopromoHP&amp;utm_content=zajawkaMT_tytul&amp;utm_campaign=a_kinoplex_HP#TREcomNav">
+Weekendowy projektor - oglądaj filmowe hity
+</a>
+<a id="LinkArea:TREcomNav" href="http://kinoplex.gazeta.pl/vod/0,0.html#TREcomNav" class="bin"><img src="http://bi.gazeta.pl/im/6/13360/m13360986.jpg" alt=""></a>
+</p>
+</div>
+</article>
+</li>
+</ul><ul class="col col1" data-colums="1">
+<li class="entry-content" data-rows-count="1">
+<article>
+<div class="module photo5 ">
+<ul>
+<li class="n2 n3 n4 n5 n6" data-vr-contentbox data-row="row">
+<p class="imgw">
+<a id="LinkArea:TREcom5img" href="http://kinoplex.gazeta.pl/kinoplex/2,135156,15675033,Hannibal+++sezon+2+odcinek+4.html#TREcom5img" title=""><img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-104-69.gif" data-src="http://bi.gazeta.pl/im/36/61/ef/z15687990C.jpg" alt=""></a>
+</p>
+
+</li>
+<li class="" data-vr-contentbox data-row="row">
+<p class="imgw">
+<a id="LinkArea:TREcom5img" href="http://kinoplex.gazeta.pl/kinoplex/2,135156,15679529,88+minut.html#TREcom5img" title=""><img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-104-69.gif" data-src="http://bi.gazeta.pl/im/12/7a/ef/z15694354C.jpg" alt=""></a>
+</p>
+
+</li>
+<li class="n2" data-vr-contentbox data-row="row">
+<p class="imgw">
+<a id="LinkArea:TREcom5img" href="http://kinoplex.gazeta.pl/kinoplex/2,135318,13680886,Scoop.html#TREcom5img" title=""><img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-104-69.gif" data-src="http://bi.gazeta.pl/im/ae/11/d1/z13701550C.jpg" alt=""></a>
+</p>
+
+</li>
+<li class="n3" data-vr-contentbox data-row="row">
+<p class="imgw">
+<a id="LinkArea:TREcom5img" href="http://kinoplex.gazeta.pl/kinoplex/2,135414,10452336,Wojna+domowa.html?utm_source=HP&amp;utm_medium=AutopromoHP&amp;utm_content=zajawkaMT_wojnadomowa_280314&amp;utm_campaign=a_kinoplex_HP#TREcom5img" title=""><img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-104-69.gif" data-src="http://bi.gazeta.pl/im/6/10471/z10471926C.jpg" alt=""></a>
+</p>
+
+</li>
+<li class="n2 n4" data-vr-contentbox data-row="row">
+<p class="imgw">
+<a id="LinkArea:TREcom5img" href="http://kinoplex.gazeta.pl/kinoplex/2,135156,15640863,Mloda+i+piekna.html?utm_source=HP&amp;utm_medium=AutopromoHP&amp;utm_content=zajawkaMT_mlodaipiekna_280314&amp;utm_campaign=a_kinoplex_HP#TREcom5img" title=""><img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-104-69.gif" data-src="http://bi.gazeta.pl/im/94/2c/ef/z15674516C.jpg" alt=""></a>
+</p>
+
+</li>
+</ul>
+</div>
+</article>
+</li>
+</ul><ul class="col col1" data-colums="1">
+<li class="entry-content" data-rows-count="1">
+<article>
+<div class="bar white" data-vr-contentbox>
+<img src="http://bi.gazeta.pl/im/9/14685/m14685189.png" alt="">
+
+</div>
+</article>
+</li>
+</ul>
+</li><!-- UZREditor --><!--14301796,aliasOf--><!-- htmEOF --><!-- /aliasy/hp2012/box_news/mtAreaEcom.htm -->
+		         <li id="news_wiadomosci" class="boxNews hslice entry-content" data-vr-zone="Wiadomosci">
+<div class="web_slice_params">
+<abbr class="ttl" title="15"></abbr>
+<div style="display:none;" class="entry-title">Wiadomości</div>
+<a rel="entry-content" href="http://bi.gazeta.pl/aliasy/hp2011/box_news/webslice/wiadomosci.htm#news_wiadomosci"></a>
+</div>
+<article>
+<header>
+<h1>
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/0,0.html#BoxWiadNav" title="Wiadomości" id="LinkArea:BoxWiadNav">Wiadomości</a>
+</h1>
+<ul>
+<li class="first"><a href="http://wiadomosci.gazeta.pl/wiadomosci/0,114883.html#BoxWiadNav" title="Polska" id="LinkArea:BoxWiadNav">Polska</a></li>
+<li><a href="http://wiadomosci.gazeta.pl/wiadomosci/0,114884.html#BoxWiadNav" title="Polityka" id="LinkArea:BoxWiadNav">Polityka</a></li>
+<li><a href="http://wiadomosci.gazeta.pl/wiadomosci/0,114881.html#BoxWiadNav" title="Świat" id="LinkArea:BoxWiadNav">Świat</a></li>
+<li><a href="http://deser.pl/deser/0,0.html#BoxWiadNav" title="Deser.pl" id="LinkArea:BoxWiadNav">Deser.pl</a></li>
+<li><a href="http://www.tokfm.pl/Tokfm/0,0.html#BoxWiadNav" title="Tokfm.pl" id="LinkArea:BoxWiadNav">Tokfm.pl</a></li>
+<li><a href="http://wiadomosci.gazeta.pl/wiadomosci/0,114944.html#BoxWiadNav" title="Zdjęcia" id="LinkArea:BoxWiadNav">Zdjęcia</a></li>
+</ul>
+</header>
+<section class="body">
+<div class="module normal">
+<div class="c0" data-vr-contentbox>
+<header>
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114871,15710887,Rodziny_chinskich_pasazerow_zaginionego_samolotu_oskarzaja.html#BoxWiadTxt" id="LinkArea:BoxWiadTxt">Rodziny chińskich pasażerów boeinga są w Malezji i domagają się spotkania z premierem</a>
+</header>
+<p class="imgw">
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114871,15710887,Rodziny_chinskich_pasazerow_zaginionego_samolotu_oskarzaja.html#BoxWiadTxt" title="Rodziny chińskich pasażerów boeinga są w Malezji i domagają się spotkania z premierem" id="LinkArea:BoxWiadTxt">
+<img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-182-110.gif" data-src="http://bi.gazeta.pl/im/ad/ba/ef/z15710893H.jpg" alt="Rodziny chińskich pasażerów boeinga są w Malezji i domagają się spotkania z premierem">
+</a>
+</p>
+</div>
+<div class="c1">
+
+
+<ul class="text"><li data-vr-contentbox>
+<span class="holder">
+<span class="spec">na żywo</span>
+
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114912,15710884,Ukraina__Kampania_prezydencka_ruszyla__Dzis_nadzwyczajne.html#BoxWiadTxt" title="Dziś nadzwyczajne spotkanie Kerry-Ławrow" id="LinkArea:BoxWiadTxt">
+<b>Dziś nadzwyczajne spotkanie Kerry-Ławrow</b>
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+<span class="spec">nowe</span>
+
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114871,15711069,Tragiczny_wypadek_w_obwodzie_donieckim__Jest_5_zabitych.html#BoxWiadTxt" title="Tragiczny wypadek w obwodzie donieckim. 5 ofiar, ranni" id="LinkArea:BoxWiadTxt">
+Tragiczny wypadek w obwodzie donieckim. 5 ofiar, ranni
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114871,15710869,Do_niedawna_jeszcze_nieznany__biznesmen_i_filantrop.html#BoxWiadTxt" title="Biznesmen i filantrop będzie nowym prezydentem Słowacji" id="LinkArea:BoxWiadTxt">
+Biznesmen i filantrop będzie nowym prezydentem Słowacji
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114871,15710975,Pozar_zabytkowego_kosciola_w_Rogowie__Splonely_dwie.html#BoxWiadTxt" title="Spłonęły dwie wieże zabytkowego kościoła w Rogowie" id="LinkArea:BoxWiadTxt">
+Spłonęły dwie wieże zabytkowego kościoła w Rogowie
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114871,15710196,_Der_Spiegel___Niemcy_udziela_pomocy_wojskowej_Europie.html#BoxWiadTxt" title="&quot;Niemcy udzielą wsparcia Europie Wsch. Myśliwce i okręt''" id="LinkArea:BoxWiadTxt">
+&quot;Niemcy udzielą wsparcia Europie Wsch. Myśliwce i okręt''
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114871,15710579,Dzien_nominacji_prezydenckich_na_Ukrainie__Kliczko.html#BoxWiadTxt" title="Ukraina: Kliczko rezygnuje. Nowe, zaskakujące kandydatury" id="LinkArea:BoxWiadTxt">
+Ukraina: Kliczko rezygnuje. Nowe, zaskakujące kandydatury
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114871,15710880,KGP_chce_wyposazyc_kazdy_patrol_policji_w_bron_elektryczna.html#BoxWiadTxt" title="KGP chce wyposażyć każdy patrol policji w broń elektryczną" id="LinkArea:BoxWiadTxt">
+KGP chce wyposażyć każdy patrol policji w broń elektryczną
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114871,15709272,Bienkowska__Igrzyska_w_Krakowie__Znaczna_czesc_kosztow.html#BoxWiadTxt" title="Bieńkowska: Igrzyska w Krakowie? Koszt dla samorządów" id="LinkArea:BoxWiadTxt">
+Bieńkowska: Igrzyska w Krakowie? Koszt dla samorządów
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114912,15686631,Gen__Koziej__Atmosfera_na_wschodniej_Ukrainie_jak,,,810915.html#BoxWiadTxt" title="Kaczyński: Polskie państwo to system korporacji. Na czele z..." id="LinkArea:BoxWiadTxt">
+Kaczyński: Polskie państwo to system korporacji. Na czele z...
+</a>
+
+</span>
+</li></ul>
+</div>
+</div>
+<div class="module photo2">
+<ul>
+<li class="n2 n3 n4 n5 n6" data-vr-contentbox>
+<p class="imgw">
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114871,15708416,Srodkowy_palec__wypadek_i__masz__na_co_zasluzyles__.html#BoxWiad2img" title="Środkowy palec, wypadek i &quot;masz, na co zasłużyłeś&quot;. Scena agresji z USA podzieliła" id="LinkArea:BoxWiad2img">
+<img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-104-69.gif" data-src="http://bi.gazeta.pl/im/fe/b1/ef/z15708670F.jpg" alt="Środkowy palec, wypadek i &quot;masz, na co zasłużyłeś&quot;. Scena agresji z USA podzieliła">
+<span class="video"></span>
+</a>
+</p>
+<p class="title">
+<strong><a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114871,15708416,Srodkowy_palec__wypadek_i__masz__na_co_zasluzyles__.html#BoxWiad2img" title="Środkowy palec, wypadek i &quot;masz, na co zasłużyłeś&quot;. Scena agresji z USA podzieliła" id="LinkArea:BoxWiad2img">Środkowy palec, wypadek i &quot;masz, na co zasłużyłeś&quot;. Scena agresji z USA podzieliła</a></strong>
+
+</p>
+</li>
+<li class="" data-vr-contentbox>
+<p class="imgw">
+<a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114883,15708002,Marsz_Ateistow_i_prof__Hartman_w_stroju_skazanca__WIDEO_.html#BoxWiad2img" title="Tak wyglądał Marsz Ateistów w Warszawie. Prof. Hartman w przebraniu..." id="LinkArea:BoxWiad2img">
+<img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-104-69.gif" data-src="http://bi.gazeta.pl/im/29/b5/ef/z15709481F.jpg" alt="Tak wyglądał Marsz Ateistów w Warszawie. Prof. Hartman w przebraniu...">
+<span class="video"></span>
+</a>
+</p>
+<p class="title">
+<strong><a href="http://wiadomosci.gazeta.pl/wiadomosci/1,114883,15708002,Marsz_Ateistow_i_prof__Hartman_w_stroju_skazanca__WIDEO_.html#BoxWiad2img" title="Tak wyglądał Marsz Ateistów w Warszawie. Prof. Hartman w przebraniu..." id="LinkArea:BoxWiad2img">Tak wyglądał Marsz Ateistów w Warszawie. Prof. Hartman w przebraniu...</a></strong>
+
+</p>
+</li>
+</ul>
+</div>
+</section>
+</article>
+<div class="boxNewsBan" id="banP87"><script type="text/javascript">if(typeof gazetaplputban87=='function') gazetaplputban87();</script></div>
+</li><!-- UZREditor --><!--11123869,aliasOf--><!-- htmEOF -->
+<li id="news_sport" class="boxNews hslice entry-content" data-vr-zone="Sport">
+<div class="web_slice_params">
+<abbr class="ttl" title="15"></abbr>
+<div style="display:none;" class="entry-title">Sport</div>
+<a rel="entry-content" href="http://bi.gazeta.pl/aliasy/hp2011/box_news/webslice/sport.htm#news_sport"></a>
+</div>
+<article>
+<header>
+<h1>
+<a href="http://www.sport.pl/#BoxSportNav" title="Sport.pl" id="LinkArea:BoxSportNav">Sport.pl</a>
+</h1>
+<ul>
+<li class="first"><a href="http://www.sport.pl/pilka/0,136438.html#TRNavSST#BoxSportNav" title="Droga na mundial" id="LinkArea:BoxSportNav">Droga na mundial</a></li>
+<li><a href="http://www.sport.pl/mundial2014/0,0.html#BoxSportNav" title="MŚ 2014" id="LinkArea:BoxSportNav">MŚ 2014</a></li>
+<li><a href="http://www.sport.pl/pilka/0,65041.html#BoxSportNav" title="LM" id="LinkArea:BoxSportNav">LM</a></li>
+<li><a href="http://www.sport.pl/pilka/0,65039.html#BoxSportNav" title="Ekstraklasa" id="LinkArea:BoxSportNav">Ekstraklasa</a></li>
+<li><a href="http://wygrajlige.sport.pl/#BoxSportNav" title="Wygraj Ligę" id="LinkArea:BoxSportNav">Wygraj Ligę</a></li>
+<li><a href="http://www.sport.pl/tenis/0,0.html#BoxSportNav" title="Tenis" id="LinkArea:BoxSportNav">Tenis</a></li>
+<li><a href="http://www.zczuba.pl/zczuba#BoxSportNav" title="Z Czuba" id="LinkArea:BoxSportNav">Z Czuba</a></li>
+</ul>
+</header>
+<section class="body">
+<div class="module normal">
+<div class="c0" data-vr-contentbox>
+<header>
+<a href="http://www.sport.pl/pilka/1,133812,15710578,Bundesliga__Media_o_wystepie_Lewandowskiego___Nie.html#BoxSportTxt" id="LinkArea:BoxSportTxt">Lewandowski chwalony nawet, gdy nie strzela. ''Nie miał szczęścia'' [OCENY]</a>
+</header>
+<p class="imgw">
+<a href="http://www.sport.pl/pilka/1,133812,15710578,Bundesliga__Media_o_wystepie_Lewandowskiego___Nie.html#BoxSportTxt" title="Lewandowski chwalony nawet, gdy nie strzela. ''Nie miał szczęścia'' [OCENY]" id="LinkArea:BoxSportTxt">
+<img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-182-110.gif" data-src="http://bi.gazeta.pl/im/b3/41/ed/z15548851H.jpg" alt="Lewandowski chwalony nawet, gdy nie strzela. ''Nie miał szczęścia'' [OCENY]">
+</a>
+</p>
+</div>
+<div class="c1">
+
+
+<ul class="text"><li data-vr-contentbox>
+<span class="holder">
+<span class="spec">na żywo</span>
+
+<a href="http://www.sport.pl/F1/1,96296,15710989,F1__Drugi_wyscig_sezonu__GP_Malezji_NA_ZYWO.html#BoxSportTxt" title="F1. Mercedesy na czele wyścigu, za nimi Vettel" id="LinkArea:BoxSportTxt">
+<b>F1. Mercedesy na czele wyścigu, za nimi Vettel</b>
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://www.sport.pl/koszykowka/1,65035,15710853,NBA__Rekordowe_32__double_double_Gortata__zwyciestwo.html#BoxSportTxt" title="Gortat podbił rekord kariery w zwycięskim meczu Wizards" id="LinkArea:BoxSportTxt">
+Gortat podbił rekord kariery w zwycięskim meczu Wizards
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://www.sport.pl/pilka/1,64946,15710894,Czy_Dawid_Kownacki_zostanie_krolem_strzelcow__Ma_nie.html#BoxSportTxt" title="17-letni piłkarz Lecha walczy o tytuł króla strzelców i awans" id="LinkArea:BoxSportTxt">
+17-letni piłkarz Lecha walczy o tytuł króla strzelców i awans
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://www.sport.pl/pilka/56,136438,15698391,MS_2014__Najlepsi_strzelcy_w_historii_reprezentacji.html#BoxSportTxt" title="Van Persie ma 30 lat, a już jest Holendrem wszech czasów" id="LinkArea:BoxSportTxt">
+Van Persie ma 30 lat, a już jest Holendrem wszech czasów
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://www.sport.pl/pilka/10,82382,15710128,Kapitan_Legii_zartuje__Po_co_dzielic__oczka__po_rundzie_.html#BoxSportTxt" title="''Po co dzielić, od razu dawajmy 1,5 pkt za zwycięstwo''" id="LinkArea:BoxSportTxt">
+''Po co dzielić, od razu dawajmy 1,5 pkt za zwycięstwo''
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://www.wroclaw.sport.pl/sport-wroclaw/1,123437,15699537,Tarasiewicz_kontra_Pawlowski__Starcie_wielkich_legend.html#BoxSportTxt" title="To będzie starcie legend Śląska. Nie przepadają za sobą" id="LinkArea:BoxSportTxt">
+To będzie starcie legend Śląska. Nie przepadają za sobą
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://www.trojmiasto.sport.pl/sport-trojmiasto/1,111904,15710680,Ricardo_Moniz__Podczas_treningow_wiekszosc_pilkarzy.html#BoxSportTxt" title="Nowy trener Lechii krytykuje: Piłkarze skupiają się na sobie" id="LinkArea:BoxSportTxt">
+Nowy trener Lechii krytykuje: Piłkarze skupiają się na sobie
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://www.poznan.sport.pl/sport-poznan/1,124479,15709783,Sedzia_Pawel_Gil_przeprosil_pilkarzy_Lecha_Poznan.html#BoxSportTxt" title="Sędzia wypaczył mecz! Potem przeprosił graczy Lecha" id="LinkArea:BoxSportTxt">
+Sędzia wypaczył mecz! Potem przeprosił graczy Lecha
+<span class="icon video"></span>
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://www.sport.pl/pilka/10,82382,15710155,Kosecki__Rok_temu_pilkarz_Lecha_grozil__ze_polamie.html#BoxSportTxt" title="Kosecki: Piłkarz Lecha groził, że połamie mi nogi, ale ja..." id="LinkArea:BoxSportTxt">
+Kosecki: Piłkarz Lecha groził, że połamie mi nogi, ale ja...
+<span class="icon video"></span>
+</a>
+
+</span>
+</li></ul>
+</div>
+</div>
+</section>
+</article>
+<div class="boxNewsBan" id="banP116"><script type="text/javascript">if(typeof gazetaplputban116=='function') gazetaplputban116();</script></div>
+</li><!-- UZREditor --><!--10692982,aliasOf--><!-- htmEOF -->
+<li id="news_gospodarka" class="boxNews hslice entry-content" data-vr-zone="Biznes">
+<div class="web_slice_params">
+<abbr class="ttl" title="15"></abbr>
+<div style="display:none;" class="entry-title">Gospodarka</div>
+<a rel="entry-content" href="http://bi.gazeta.pl/aliasy/hp2011/box_news/webslice/gospodarka.htm#news_gospodarka"></a>
+</div>
+<article>
+<header>
+<h1>
+<a href="http://wyborcza.biz/biznes/0,0.html#BoxBizNav" title="Biznes" id="LinkArea:BoxBizNav">Biznes</a>
+</h1>
+<ul>
+<li class="first"><a href="http://wyborcza.biz/Gieldy/0,0.html#BoxBizNav" title="Giełda" id="LinkArea:BoxBizNav">Giełda</a></li>
+<li><a href="http://wyborcza.biz/Waluty/0,0.html#BoxBizNav" title="Waluty" id="LinkArea:BoxBizNav">Waluty</a></li>
+<li><a href="http://wyborcza.biz/finanse/0,0.html#BoxBizNav" title="Finanse" id="LinkArea:BoxBizNav">Finanse</a></li>
+<li><a href="http://wyborcza.biz/Firma/0,101588.html#BoxBizNav" title="Firma" id="LinkArea:BoxBizNav">Firma</a></li>
+<li><a href="http://krs.wyborcza.biz/szukaj/business#BoxBizNav" title="KRS" id="LinkArea:BoxBizNav">KRS</a></li>
+<li><a href="http://www.komunikaty.pl/komunikaty/#BoxBizNav" title="Przetargi" id="LinkArea:BoxBizNav">Przetargi</a></li>
+<li><a href="http://www.dlugi.wyborcza.biz/#BoxBizNav" title="Długi" id="LinkArea:BoxBizNav">Długi</a></li>
+<li><a href="http://gazetapraca.pl/0,0.html#BoxBizNav" title="Praca" id="LinkArea:BoxBizNav">Praca</a></li>
+</ul>
+</header>
+<section class="body">
+<div class="module normal">
+<div class="c0" data-vr-contentbox>
+<header>
+<span class="spec">nowe</span><a href="http://wyborcza.biz/biznes/1,101558,15673070,Zawod__Gracz__Jak_zarabiac_patrzac_w_komputer_.html#BoxBizTxt" id="LinkArea:BoxBizTxt">Zawód: gracz komputerowy. Zarobki? Nawet 4 tys. euro na miesiąc</a>
+</header>
+<p class="imgw">
+<a href="http://wyborcza.biz/biznes/1,101558,15673070,Zawod__Gracz__Jak_zarabiac_patrzac_w_komputer_.html#BoxBizTxt" title="Zawód: gracz komputerowy. Zarobki? Nawet 4 tys. euro na miesiąc" id="LinkArea:BoxBizTxt">
+<img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-182-110.gif" data-src="http://bi.gazeta.pl/im/33/e0/ee/z15654963H.jpg" alt="Zawód: gracz komputerowy. Zarobki? Nawet 4 tys. euro na miesiąc">
+</a>
+</p>
+</div>
+<div class="c1">
+
+
+<ul class="text"><li data-vr-contentbox>
+<span class="holder">
+<span class="spec">nowe</span>
+
+<a href="http://wyborcza.biz/Firma/1,101618,15695155,Jak_Izrael_wspiera_mlode_firmy___Patrzymy_na_jakosc_.html#BoxBizTxt" title="Bierzmy przykład. Inkubatory tylko dla najlepszych" id="LinkArea:BoxBizTxt">
+<b>Bierzmy przykład. Inkubatory tylko dla najlepszych</b>
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://wyborcza.biz/finanse/1,125887,15687904,Czym_grozi_niesplacanie_dlugow_i_jak_bronic_sie_przed.html#BoxBizTxt" title="Zaległy czynsz, rachunek? Sprzedają długi, a komornik..." id="LinkArea:BoxBizTxt">
+Zaległy czynsz, rachunek? Sprzedają długi, a komornik...
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://wyborcza.biz/biznes/1,100896,15705562,Cztery_stawki_PIT__50_proc__podatek_dla_najlepiej.html#BoxBizTxt" title="Nowy pomysł na podatki. Cztery stawki PIT, 50% dla bogatych" id="LinkArea:BoxBizTxt">
+Nowy pomysł na podatki. Cztery stawki PIT, 50% dla bogatych
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://wyborcza.biz/biznes/1,100896,15706072,Brytyjczycy_chwala_Polske_za_gospodarke___Warto_wejsc.html#BoxBizTxt" title="Brytyjczycy chwalą Polskę. &quot;Warto wejść na ten rynek&quot;" id="LinkArea:BoxBizTxt">
+Brytyjczycy chwalą Polskę. &quot;Warto wejść na ten rynek&quot;
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+<span class="spec">nowe</span>
+
+<a href="http://wyborcza.biz/biznes/1,100896,15699979,Ukraina_planuje_reformy__Cena_za_niezaleznosc_w_rachunku.html#BoxBizTxt" title="Ukraina planuje reformy. Koszt? Wyższy rachunek za gaz" id="LinkArea:BoxBizTxt">
+Ukraina planuje reformy. Koszt? Wyższy rachunek za gaz
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://wyborcza.biz/pieniadzeekstra/1,136887,15691701,Promocja__z_ktorej_nie_da_sie_skorzystac_.html#BoxBizTxt" title="Promocja w Plusie, z której nie da się skorzystać. 100 minut" id="LinkArea:BoxBizTxt">
+Promocja w Plusie, z której nie da się skorzystać. 100 minut
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://wyborcza.biz/biznes/1,100897,15673676,Bilion_prezesa__czyli_co_obiecuje_PiS.html#BoxBizTxt" title="Bilion Kaczyńskiego, czyli co naprawdę obiecuje PiS" id="LinkArea:BoxBizTxt">
+Bilion Kaczyńskiego, czyli co naprawdę obiecuje PiS
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://wyborcza.biz/biznes/1,100896,15695063,Nowy_rekord___jedna_kaczka_starczy_na_750_pasztetow.html#BoxBizTxt" title="Nowy rekord - 1 kaczka na 750 pasztetów. Klient zaskoczony" id="LinkArea:BoxBizTxt">
+Nowy rekord - 1 kaczka na 750 pasztetów. Klient zaskoczony
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://gazetapraca.pl/gazetapraca/1,90443,15696613,Najlepsze_Miejsca_Pracy_w_Polsce.html#BoxBizTxt" title="Gigant IT, Ikea czy mała firma? Oto najlepsze miejsca pracy" id="LinkArea:BoxBizTxt">
+Gigant IT, Ikea czy mała firma? Oto najlepsze miejsca pracy
+</a>
+
+</span>
+</li></ul>
+</div>
+</div>
+</section>
+<div id="hpStockContainer"></div>
+</article>
+<div class="boxNewsBan" id="banP83"><script type="text/javascript">if(typeof gazetaplputban83=='function') gazetaplputban83();</script></div>
+</li><!-- UZREditor --><!--10694571,aliasOf--><!-- htmEOF -->
+<li id="news_lokale" class="boxNews hslice entry-content" data-vr-zone="Lokale">
+<div class="web_slice_params">
+<abbr class="ttl" title="15"></abbr>
+<div style="display:none;" class="entry-title">Wiadomości lokalne</div>
+<a rel="entry-content" href="http://bi.gazeta.pl/aliasy/hp2011/box_news/webslice/lokale.htm#news_lokale"></a>
+</div>
+<article>
+<header>
+<h1>
+<a href="http://miasta.gazeta.pl#LokKrajNav" title="Wiadomości lokalne" id="LinkArea:LokKrajNav">Wiadomości lokalne</a>
+</h1>
+<div id="hpCitySelector">
+<form method="get" action="?">
+<fieldset>
+<select name="miasto">
+<option value="lokale">Wiadomości lokalne</option><option value="bialystok">Białystok</option><option value="bielskobiala">Bielsko-Biała</option><option value="bydgoszcz">Bydgoszcz</option><option value="czestochowa">Częstochowa</option><option value="elblag">Elbląg</option><option value="gliwice">Gliwice</option><option value="gdansk">Gdańsk</option><option value="gdynia">Gdynia</option><option value="gorzowwlkp">Gorzów Wlkp.</option><option value="katowice">Katowice</option><option value="kielce">Kielce</option><option value="krakow">Kraków</option><option value="lublin">Lublin</option><option value="lodz">Łódź</option><option value="olsztyn">Olsztyn</option><option value="opole">Opole</option><option value="plock">Płock</option><option value="poznan">Poznań</option><option value="radom">Radom</option><option value="rzeszow">Rzeszów</option><option value="sosnowiec">Sosnowiec</option><option value="szczecin">Szczecin</option><option value="torun">Toruń</option><option value="trojmiasto">Trójmiasto</option><option value="warszawa">Warszawa</option><option value="wroclaw">Wrocław</option><option value="zielonagora">Zielona Góra</option>
+</select>
+<button type="submit">wybierz</button>
+</fieldset>
+</form>
+</div>
+<ul>
+<li class="first"><a href="http://gazetapraca.pl/0,0.html#LokKrajNav" title="Oferty Pracy" id="LinkArea:LokKrajNav">Oferty Pracy</a></li>
+<li><a href="http://cjg.gazeta.pl/CJG_Warszawa/0,0.html#LokKrajNav" title="Co Jest Grane" id="LinkArea:LokKrajNav">Co Jest Grane</a></li>
+<li><a href="http://szuki.pl#LokKrajNav" title="Szuki" id="LinkArea:LokKrajNav">Szuki</a></li>
+</ul>
+</header>
+<section class="body">
+<div class="module normal">
+<div class="c0" data-vr-contentbox>
+<header>
+<a href="http://torun.gazeta.pl/torun/1,35576,15708217,Kosciol_Rydzyka_jak_oko_Saurona_i_wyciskarka_do_cytrusow.html#LokKrajTxt" id="LinkArea:LokKrajTxt">Niepokojący wygląd kościoła o.Rydzyka. Jak oko Saurona</a>
+</header>
+<p class="imgw">
+<a href="http://torun.gazeta.pl/torun/1,35576,15708217,Kosciol_Rydzyka_jak_oko_Saurona_i_wyciskarka_do_cytrusow.html#LokKrajTxt" title="Niepokojący wygląd kościoła o.Rydzyka. Jak oko Saurona" id="LinkArea:LokKrajTxt">
+<img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-182-110.gif" data-src="http://bi.gazeta.pl/im/85/b4/ef/z15709317H.jpg" alt="Niepokojący wygląd kościoła o.Rydzyka. Jak oko Saurona">
+<span class="video"></span>
+</a>
+</p>
+</div>
+<div class="c1">
+
+
+<ul class="text"><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://warszawa.gazeta.pl/warszawa/1,34862,15693646,Pruszkow_kusi_nowymi_mieszkaniami__szybki_dojazd_do.html#LokKrajTxt" title="Nowa sypialnia Warszawy? Pruszków kusi mieszkaniami" id="LinkArea:LokKrajTxt">
+<b>Nowa sypialnia Warszawy? Pruszków kusi mieszkaniami</b>
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://poznan.gazeta.pl/poznan/1,36001,15709442,Zatrzymano_18_latka__ktory_wywolal_alarm_bombowy_w.html#LokKrajTxt" title="Zatrzymano 18-latka, który wywołał alarm bombowy w sądzie" id="LinkArea:LokKrajTxt">
+Zatrzymano 18-latka, który wywołał alarm bombowy w sądzie
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://warszawa.gazeta.pl/warszawa/1,34862,15707027,Strzelanina_przy_Lazienkach___Zdazylem_sie_juz_przyzwyczaic_.html#LokKrajTxt" title="Strzelanina przy Łazienkach. &quot;Zdążyłem się już przyzwyczaić&quot;" id="LinkArea:LokKrajTxt">
+Strzelanina przy Łazienkach. &quot;Zdążyłem się już przyzwyczaić&quot;
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://czestochowa.gazeta.pl/czestochowa/1,35271,15709722,Policjanci_i_strazacy_uratowali_desperata_z_Kozieglow_.html#LokKrajTxt" title="Policjanci i strażacy uratowali desperata. Chciał się spalić" id="LinkArea:LokKrajTxt">
+Policjanci i strażacy uratowali desperata. Chciał się spalić
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://trojmiasto.gazeta.pl/trojmiasto/5,35612,15680908,Jak_sowieci_zajeli_Gdansk_i_zostawili_morze_ruin__ZDJECIA_.html#LokKrajTxt" title="W marcu 1945 sowieci zajęli Gdańsk i zostawili morze ruin" id="LinkArea:LokKrajTxt">
+W marcu 1945 sowieci zajęli Gdańsk i zostawili morze ruin
+<span class="icon photo"></span>
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://szczecin.gazeta.pl/szczecin/1,34939,15710974,Najcieplejszy_dzien_marca__W_sloncu_ponad_20_stopni.html#LokKrajTxt" title="Najcieplejszy dzień marca. Dzisiaj w słońcu ponad 20 stopni" id="LinkArea:LokKrajTxt">
+Najcieplejszy dzień marca. Dzisiaj w słońcu ponad 20 stopni
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://torun.gazeta.pl/torun/56,35576,15704262,Na_wiosne_adoptuj_psiaka_z_torunskiego_schroniska.html#LokKrajTxt" title="Na wiosnę adoptuj psiaka. Czekają szczeniaczki i duże psy" id="LinkArea:LokKrajTxt">
+Na wiosnę adoptuj psiaka. Czekają szczeniaczki i duże psy
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://lublin.gazeta.pl/lublin/1,48724,15705612,Pewny_zawod__Wybierz_studia_przygotowujace_do_pracy.html#LokKrajTxt" title="Po tych studiach praca gwarantowana. Nowy kierunek KUL" id="LinkArea:LokKrajTxt">
+Po tych studiach praca gwarantowana. Nowy kierunek KUL
+</a>
+
+</span>
+</li></ul>
+</div>
+</div>
+</section>
+</article>
+</li><!-- UZREditor --><!--10735088,aliasOf--><!-- htmEOF -->
+<li class="boxNews" id="news_lokaleEcom" data-vr-zone="LokaleEcom"  >
+<ul class="col col1" data-colums="1">
+<li class="entry-content" data-rows-count="1">
+<article>
+<div class="module barHeader border  ecommerceBar " data-vr-contentbox>
+<p>
+Oferty
+</p>
+</div>
+</article>
+</li>
+</ul><ul class="col col1" data-colums="1">
+<li class="entry-content" data-rows-count="1">
+<article>
+<div class="module photo2 photo2Price">
+<ul>
+<li class="n2 n3 n4 n5 n6" data-vr-contentbox data-row="row">
+<p class="imgw">
+<a href="http://www.okazje.info.pl/okazja/odziez-i-obuwie/ray-ban-rb2132-new-wayfarer-light-tortoise-frame-brown-gradient-lens-plastic-sunglasses-52mm.html?utm_medium=partner&amp;utm_source=gazeta&amp;utm_campaign=gazeta&amp;utm_content=HP_boks_lokale300314#TREcom2img" title="Modne okulary męskie marki Ray Ban" id="LinkArea:TREcom2img">
+<img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-104-69.gif" data-src="http://bi.gazeta.pl/im/b6/a3/ef/z15705014F.jpg" alt="Modne okulary męskie marki Ray Ban">
+</a>
+</p>
+<p class="title">
+<strong><span class="spec">okazje.info</span><a href="http://www.okazje.info.pl/okazja/odziez-i-obuwie/ray-ban-rb2132-new-wayfarer-light-tortoise-frame-brown-gradient-lens-plastic-sunglasses-52mm.html?utm_medium=partner&amp;utm_source=gazeta&amp;utm_campaign=gazeta&amp;utm_content=HP_boks_lokale300314#TREcom2img" title="Modne okulary męskie marki Ray Ban" id="LinkArea:TREcom2img">Modne okulary męskie marki Ray Ban</a></strong>
+<a id="LinkArea:TREcom2img" class="brandLink" href="http://www.okazje.info.pl/okazja/odziez-i-obuwie/ray-ban-rb2132-new-wayfarer-light-tortoise-frame-brown-gradient-lens-plastic-sunglasses-52mm.html?utm_medium=partner&amp;utm_source=gazeta&amp;utm_campaign=gazeta&amp;utm_content=HP_boks_lokale300314#TREcom2img" title="Modne okulary męskie marki Ray Ban">
+<span class="brand">od 248 zł</span>
+</a>
+</p>
+</li>
+<li class="" data-vr-contentbox data-row="row">
+<p class="imgw">
+<a href="http://www.6win.pl/6win/0,0.html?utm_source=HP&amp;utm_medium=AutopromoHP&amp;utm_content=HP_boks_lokale_300314_dd&amp;utm_campaign=a_6win#TREcom2img" title="Weekend darmowej dostawy w Klubie 6win.pl" id="LinkArea:TREcom2img">
+<img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-104-69.gif" data-src="http://bi.gazeta.pl/im/0b/9a/ef/z15702539F.jpg" alt="Weekend darmowej dostawy w Klubie 6win.pl">
+</a>
+</p>
+<p class="title">
+<strong><span class="spec">6win.pl</span><a href="http://www.6win.pl/6win/0,0.html?utm_source=HP&amp;utm_medium=AutopromoHP&amp;utm_content=HP_boks_lokale_300314_dd&amp;utm_campaign=a_6win#TREcom2img" title="Weekend darmowej dostawy w Klubie 6win.pl" id="LinkArea:TREcom2img">Weekend darmowej dostawy w Klubie 6win.pl</a></strong>
+<a id="LinkArea:TREcom2img" class="brandLink" href="http://www.6win.pl/6win/0,0.html?utm_source=HP&amp;utm_medium=AutopromoHP&amp;utm_content=HP_boks_lokale_300314_dd&amp;utm_campaign=a_6win#TREcom2img" title="Weekend darmowej dostawy w Klubie 6win.pl">
+<span class="brand">Zobacz</span>
+</a>
+</p>
+</li>
+</ul>
+</div>
+</article>
+</li>
+</ul>
+<div class="boxNewsBan" id="banP113"><script type="text/javascript">if(typeof gazetaplputban113=='function') gazetaplputban113();</script></div>
+</li><!-- UZREditor --><!--13684023,aliasOf--><!-- htmEOF -->
+<li id="news_plotek" class="boxNews hslice entry-content" data-vr-zone="Stylzycia">
+<article>
+<header>
+<h1>
+<a href="http://kobieta.gazeta.pl/kobieta/#BoxPlotekNav" title="Styl Życia" id="LinkArea:BoxPlotekNav">Styl Życia</a>
+</h1>
+<ul>
+<li class="first"><a href="http://lula.pl/lula/0,0.html#BoxPlotekNav" title="Lula" id="LinkArea:BoxPlotekNav">Lula</a></li>
+<li><a href="http://podroze.gazeta.pl/podroze/0,0.html#BoxPlotekNav" title="Podróże" id="LinkArea:BoxPlotekNav">Podróże</a></li>
+
+<li><a href="http://www.edziecko.pl/edziecko/0,0.html#BoxPlotekNav" title="Dziecko" id="LinkArea:BoxPlotekNav">Dziecko</a></li>
+<li><a href="http://www.domosfera.pl/wnetrza/0,0.html#BoxPlotekNav" title="Domosfera" id="LinkArea:BoxPlotekNav">Domosfera</a></li>
+<li><a href="http://zdrowie.gazeta.pl/Zdrowie/0,0.html#BoxPlotekNav" title="Zdrowie" id="LinkArea:BoxPlotekNav">Zdrowie</a></li>
+<li><a href="http://www.groszki.pl/groszki/0,0.html#BoxPlotekNav" title="Groszki" id="LinkArea:BoxPlotekNav">Groszki</a></li>
+</ul>
+</header>
+<section class="body">
+<div class="module normal border">
+<div class="c0" data-vr-contentbox>
+<header>
+<a href="http://podroze.gazeta.pl/podroze/56,114158,13675974,Majowka_2014__dokad_jechac__zeby_sie_wygrzac__dokad.html#BoxPlotekTxt" id="LinkArea:BoxPlotekTxt">Majówka 2014: dokąd jechać, żeby się wygrzać; gdzie wybrać się z dziećmi? Zaplanuj teraz!</a>
+</header>
+<p class="imgw">
+<a href="http://podroze.gazeta.pl/podroze/56,114158,13675974,Majowka_2014__dokad_jechac__zeby_sie_wygrzac__dokad.html#BoxPlotekTxt" title="Majówka 2014: dokąd jechać, żeby się wygrzać; gdzie wybrać się z dziećmi? Zaplanuj teraz!" id="LinkArea:BoxPlotekTxt">
+<img src="http://bi.gazeta.pl/i/obrazki/hp2009/lazy-182-110.gif" data-src="http://bi.gazeta.pl/im/6e/ae/d0/z13676142H.jpg" alt="Majówka 2014: dokąd jechać, żeby się wygrzać; gdzie wybrać się z dziećmi? Zaplanuj teraz!">
+</a>
+</p>
+</div>
+<div class="c1">
+
+
+<ul class="text"><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://www.domosfera.pl/wnetrza/56,94387,15671725,Mieszkac_na_20_m_kw_.html#BoxPlotekTxt" title="Jak się mieszka na 20 m kw.? Okazuje się, że wygodnie" id="LinkArea:BoxPlotekTxt">
+<b>Jak się mieszka na 20 m kw.? Okazuje się, że wygodnie</b>
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://ugotuj.to/przepisy_kulinarne/56,87978,15683494,Kasza_gryczana_w_roli_glownej.html#BoxPlotekTxt" title="Kasza w roli głównej: tania, zdrowa i zaskakująca [PRZEPISY]" id="LinkArea:BoxPlotekTxt">
+Kasza w roli głównej: tania, zdrowa i zaskakująca [PRZEPISY]
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://www.groszki.pl/groszki/56,111696,15702169,15_hitow_z_wiosennych_kolekcji_z_polskich_sieciowek.html#BoxPlotekTxt" title="15 hitów z wiosennych kolekcji polskich sieciówek do 150 zł" id="LinkArea:BoxPlotekTxt">
+15 hitów z wiosennych kolekcji polskich sieciówek do 150 zł
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://zdrowie.gazeta.pl/Zdrowie/1,130513,15701005,Niedotlenienie_i_stan_zapalny___to_uszkadza_ludzki.html#BoxPlotekTxt" title="Te dwa czynniki najczęściej uszkadzają ludzki mózg. Uważaj!" id="LinkArea:BoxPlotekTxt">
+Te dwa czynniki najczęściej uszkadzają ludzki mózg. Uważaj!
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://avanti24.pl/moda/1,103631,15675695,Dzins_w_nowej_kolekcji_House.html#BoxPlotekTxt" title="Dżins i marynarskie paski - stylowy duet. Świetna kolekcja" id="LinkArea:BoxPlotekTxt">
+Dżins i marynarskie paski - stylowy duet. Świetna kolekcja
+<span class="icon photo"></span>
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://ugotuj.to/przepisy_kulinarne/10,128371,15660204,Latwy_przepis_na_ciasto_Bounty.html#BoxPlotekTxt" title="Lubicie batoniki Bounty? To proste ciasto smakuje tak samo" id="LinkArea:BoxPlotekTxt">
+Lubicie batoniki Bounty? To proste ciasto smakuje tak samo
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://domiwnetrze.pl/domiwnetrze/56,132256,15683321,Wnetrza__weekendowy_apartament_w_Toskanii.html#BoxPlotekTxt" title="Weekendowy dom żyjących na walizkach. Piękne wnętrza!" id="LinkArea:BoxPlotekTxt">
+Weekendowy dom żyjących na walizkach. Piękne wnętrza!
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://www.e-ogrody.pl/Ogrody/1,113645,15693297,Co_juz_mozna_sadzic_na_balkonie.html#BoxPlotekTxt" title="Co już można sadzić na balkonie? Kwiaty dla niecierpliwych" id="LinkArea:BoxPlotekTxt">
+Co już można sadzić na balkonie? Kwiaty dla niecierpliwych
+</a>
+
+</span>
+</li><li data-vr-contentbox>
+<span class="holder">
+
+
+<a href="http://www.domosfera.pl/wnetrza/56,101999,15640312,Najciekawsze_suszarki_na_pranie___TOP_5.html#BoxPlotekTxt" title="Suszarki na pranie, jakich jeszcze nie było. Która najlepsza?" id="LinkArea:BoxPlotekTxt">
+Suszarki na pranie, jakich je
