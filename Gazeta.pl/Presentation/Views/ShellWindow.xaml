@@ -17,8 +17,9 @@
         <Grid>
             <StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Label Name="Test">Czas odświeżania: </Label>
-                    <Label Name="odswiezenie" Content="{Binding Czas, Mode=TwoWay}"></Label>
+                    <Label Name="Test">Czas odświeżania:</Label>
+                    <Label Name="odswiezenie" Content="{Binding Czas}"></Label>
+                    <Button Width="40" Command="{Binding startStop}" Content="{Binding onOff}"></Button>
                 </StackPanel>
                 
                 <ListView ItemsSource="{Binding KolekcjaWiadomosci}" > 
@@ -26,15 +27,33 @@
                 <ListView.View>
                     
                     <GridView>
-                        <GridViewColumn Width="200" DisplayMemberBinding="{Binding Path=tytul}">tytul</GridViewColumn>
-                        <GridViewColumn Width="200" DisplayMemberBinding="{Binding Path=tresc}">tresc</GridViewColumn>
-                        <GridViewColumn Width="200" DisplayMemberBinding="{Binding Path=czasZapisania}">czasZapisania</GridViewColumn>
-                        <GridViewColumn Width="200" DisplayMemberBinding="{Binding Path=link}">link</GridViewColumn>
+                        
+                        
+                            <GridViewColumn  Width="200">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        
+                                        <TextBlock TextWrapping="Wrap" Text="{Binding tresc}"></TextBlock>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn  Width="200">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock TextWrapping="Wrap" Text="{Binding czasZapisania}"></TextBlock>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn  Width="200">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                       
+                                        <TextBlock TextWrapping="Wrap" Text="{Binding link}"></TextBlock>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
                     </GridView>
-                    
                 </ListView.View>
-                
-                
             </ListView>
                 </StackPanel>
                 

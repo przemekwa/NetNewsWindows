@@ -5,7 +5,12 @@ using System.Text;
 
 namespace Gazeta.pl.Domain
 {
-    internal class Class1
+     enum onoff { ON, OFF};
+
+
+
+    internal class Domain
     {
+
     }
 }

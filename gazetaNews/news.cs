@@ -8,7 +8,7 @@ namespace gazetaNews
 {
     public class news
     {
-        public string tytul { get; set; }
+       
         public string link { get; set; }
         public DateTime czasZapisania { get; set; }
         public string tresc { get; set; }
