@@ -76,6 +76,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Presentation\Converters\DateTimeToString.cs" />
     <Compile Include="Presentation\Views\ShellWindow.xaml.cs">
       <DependentUpon>ShellWindow.xaml</DependentUpon>
     </Compile>
@@ -104,9 +105,7 @@
     </None>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Presentation\Converters\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="Presentation\Resources\Images\Application.ico" />
   </ItemGroup>

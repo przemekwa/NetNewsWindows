@@ -107,7 +107,7 @@ namespace Gazeta.pl.Applications.ViewModels
                 dt.Start();
                 dt_Tick(new object(), new System.EventArgs());
 
-
+                
                 onOff = onoff.ON.ToString();
             }
               

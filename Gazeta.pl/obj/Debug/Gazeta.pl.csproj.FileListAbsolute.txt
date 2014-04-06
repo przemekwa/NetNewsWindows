@@ -21,3 +21,4 @@ D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\HtmlAgilityPack.dll
 D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\gazetaNews.pdb
 D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\HtmlAgilityPack.pdb
 D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\HtmlAgilityPack.xml
+D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\obj\Debug\GeneratedInternalTypeHelper.g.cs

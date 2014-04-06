@@ -35,33 +35,8 @@ namespace gazetaNews
                         wiadomosc.czasZapisania = System.DateTime.Now;
 
                         lista.Add(wiadomosc);
-
-
                     }
-
-
-
                 }
-
-
-                //foreach (HtmlNode link in doc.DocumentNode.SelectNodes("//a[@href]"))
-                //{
-                //    if (link.Id == "LinkArea:MT")
-                //    {
-                //        var wiadomosc = new news();
-
-                //        wiadomosc.tytul = link.GetAttributeValue("title", "brak");
-
-                //        wiadomosc.link = link.GetAttributeValue("href", "brak");
-
-                //        wiadomosc.tresc = link.InnerText;
-
-                //        wiadomosc.czasZapisania = System.DateTime.Now;
-
-                //        lista.Add(wiadomosc);
-                        
-                //      }
-                //}
                 return lista;
             }
         }
