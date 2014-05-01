@@ -8,6 +8,7 @@ using gazetaNews;
 using System.Timers;
 using System.Windows.Threading;
 using Gazeta.pl.Domain;
+using System.Collections;
 
 namespace Gazeta.pl.Applications.ViewModels
 {
@@ -21,7 +22,7 @@ namespace Gazeta.pl.Applications.ViewModels
         public ShellViewModel(IShellView view)
             : base(view)
         {
-            this.KolekcjaWiadomosci = new ObservableCollection<news>();
+            this.KolekcjaWiadomosci = new ObservableCollection<NewsData>();
 
             onOff = onoff.OFF.ToString();
             exitCommand = new DelegateCommand(Close);
@@ -70,7 +71,7 @@ namespace Gazeta.pl.Applications.ViewModels
             }
         }
 
-        public ObservableCollection<news> KolekcjaWiadomosci { get; set; }
+        public ObservableCollection<NewsData> KolekcjaWiadomosci { get; set; }
         
 
         public void Show()
@@ -98,7 +99,7 @@ namespace Gazeta.pl.Applications.ViewModels
             }
             else
             {
-                dt.Interval = new System.TimeSpan(0, 20, 0);
+                dt.Interval = new System.TimeSpan(0, 10, 0);
 
                 dt.Tick += dt_Tick;
 
@@ -120,35 +121,28 @@ namespace Gazeta.pl.Applications.ViewModels
             gazetaNews.Gazeta gazeta = new gazetaNews.Gazeta();
 
             Czas = System.DateTime.Now.ToString("HH:mm:ss");
-
-           // KolekcjaWiadomosci.Clear();
-            
           
-            var wiadomosci = gazeta.PobierzWiadomosci();
+            var wiadomosc = gazeta.PobierzWiadomosc();
 
+            if (!wiadomosc.isNull)
+            {               
+                   bool czyJest = false;
 
-            if (KolekcjaWiadomosci.Count != 0)
-            {
-              foreach (var w in wiadomosci)
-                {
-                    foreach (var k in KolekcjaWiadomosci)
+                   foreach (var k in KolekcjaWiadomosci)
                     {
-                        if (w.link != k.link)
-                        {
-                            KolekcjaWiadomosci.Add(w);
-                            break;
-                        }
-
+                       if (StructuralComparisons.StructuralEqualityComparer.Equals(k.hash, wiadomosc.hash))
+                       {
+                           czyJest = true;
+                       }
                     }
-                    
-                }
-            }
-            else
-            {
-                gazeta.PobierzWiadomosci().ForEach(wi => KolekcjaWiadomosci.Add(wi));
-            }
-        }
 
-       
+                if (!czyJest)
+                {
+                    KolekcjaWiadomosci.Add(wiadomosc);
+                }
+                }
+             
+            
+        }
     }
 }

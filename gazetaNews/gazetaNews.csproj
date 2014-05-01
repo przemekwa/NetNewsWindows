@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckSum.cs" />
     <Compile Include="Gazeta.cs" />
     <Compile Include="GazetaNews.cs" />
     <Compile Include="HTMLtoFile.cs" />

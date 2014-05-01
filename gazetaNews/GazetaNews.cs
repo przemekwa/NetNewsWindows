@@ -8,6 +8,6 @@ namespace gazetaNews
 {
     interface IGazetaNews
     {
-        List<news> PobierzWiadomosci();
+        NewsData PobierzWiadomosc();
     }
 }

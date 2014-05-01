@@ -5,22 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
         xmlns:vm="clr-namespace:Gazeta.pl.Applications.ViewModels"
         xmlns:l="clr-namespace:Gazeta.pl.Presentation.Converters"
-        mc:Ignorable="d" Title="{Binding Title}" Icon="{StaticResource ApplicationIcon}" Width="582" Height="388"
+        mc:Ignorable="d" Title="{Binding Title}" Icon="{StaticResource ApplicationIcon}" Width="1037" Height="406"
         d:DataContext="{d:DesignInstance vm:ShellViewModel}">
     <Window.Resources>
         <l:DateTimeToString x:Key="Converter"></l:DateTimeToString>
     </Window.Resources>
 
     <StackPanel>
-                  
-    
-    <Grid >
+
+
+        <Grid >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <StackPanel>
-                 <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal">
                     <Label Name="Test">Czas odświeżania:</Label>
                     <Label Name="odswiezenie" Content="{Binding Czas}"></Label>
                     <Button Width="40" Command="{Binding startStop}" Content="{Binding onOff}"></Button>
@@ -41,13 +41,13 @@
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate> Obrazek
                             </GridViewColumn>
-                            
+
                             <GridViewColumn  Width="200" >
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
                                         <TextBlock TextWrapping="Wrap" Text="{Binding naglowek}"></TextBlock>
                                     </DataTemplate>
-                                </GridViewColumn.CellTemplate>Nagłówek
+                                </GridViewColumn.CellTemplate> Nagłówek
                             </GridViewColumn>
 
                             <GridViewColumn  Width="200" >
@@ -55,14 +55,14 @@
                                     <DataTemplate>
                                         <TextBlock TextWrapping="Wrap" Text="{Binding opis}"></TextBlock>
                                     </DataTemplate>
-                                </GridViewColumn.CellTemplate>Opis
+                                </GridViewColumn.CellTemplate> Opis
                             </GridViewColumn>
                             <GridViewColumn  Width="200">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
                                         <TextBlock TextWrapping="Wrap" Text="{Binding czasZapisania, Converter={StaticResource Converter}}"></TextBlock>
                                     </DataTemplate>
-                                </GridViewColumn.CellTemplate>Czas pobrania
+                                </GridViewColumn.CellTemplate> Czas pobrania
                             </GridViewColumn>
                             <GridViewColumn  Width="200">
                                 <GridViewColumn.CellTemplate>
@@ -71,7 +71,7 @@
                                             <Hyperlink NavigateUri="{Binding link}" RequestNavigate="Hyperlink_RequestNavigate" >Link</Hyperlink>
                                         </TextBlock>
                                     </DataTemplate>
-                                </GridViewColumn.CellTemplate>Link do artykułu
+                                </GridViewColumn.CellTemplate> Link do artykułu
                             </GridViewColumn>
                         </GridView>
                     </ListView.View>

@@ -9,9 +9,9 @@
 
     public class Gazeta : IGazetaNews
     {
-        public List<news> PobierzWiadomosci()
+        public NewsData PobierzWiadomosc()
         {
-            var lista = new List<news>();
+            var lista = new List<News>();
 
             using (var plikHtm = new HTMLtoFile("http://www.gazeta.pl/0,0.html"))
             {
@@ -31,7 +31,7 @@
 
                         if (opis != null)
                         {
-                            var wiadomosc = new news();
+                            var wiadomosc = new News();
 
                             wiadomosc.link = nagłowek.GetAttributeValue("href", "brak");
 
@@ -43,48 +43,14 @@
 
                             wiadomosc.opis = opis.InnerHtml;
 
-                            lista.Add(wiadomosc);
+                            wiadomosc.hash = CheckSum.Create(wiadomosc.link);
+
+                            return wiadomosc;
                         }
                     }
-
-
-                    
                 }
-
-
-
-
-                //foreach (HtmlNode link in doc.DocumentNode.SelectNodes("//span"))
-                //{
-                //    if (link.GetAttributeValue("class","") == "text")
-                //    {
-                //        HtmlNode h = link.SelectSingleNode("a");
-                        
-                //        var wiadomosc = new news();
-
-                //        wiadomosc.link = h.GetAttributeValue("href", "brak");
-
-                //        wiadomosc.tresc = h.InnerText;
-
-                //        wiadomosc.czasZapisania = System.DateTime.Now;
-
-                //        foreach (HtmlNode img in doc.DocumentNode.SelectNodes("//a[@id='LinkArea:MT']/img"))
-                //        {
-                //            wiadomosc.obrazek_link = img.GetAttributeValue("src", "");
-                //        }
-
-
-                //        lista.Add(wiadomosc);
-                //    }
-                //}
-
-                
-
-          
-
-                return lista;
+                return new EmptyNews();
             }
         }
-
     }
 }
