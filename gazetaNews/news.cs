@@ -8,9 +8,10 @@ namespace gazetaNews
 {
     public class news
     {
-       
         public string link { get; set; }
         public DateTime czasZapisania { get; set; }
-        public string tresc { get; set; }
+        public string naglowek { get; set; }
+        public string obrazek_link { get; set; }
+        public string opis { get; set; }
     }
 }

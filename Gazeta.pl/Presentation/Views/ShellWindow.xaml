@@ -34,30 +34,44 @@
                     <ListView.View>
 
                         <GridView>
-                           
+                            <GridViewColumn  Width="200" >
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Image Source="{Binding obrazek_link}"></Image>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate> Obrazek
+                            </GridViewColumn>
+                            
+                            <GridViewColumn  Width="200" >
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock TextWrapping="Wrap" Text="{Binding naglowek}"></TextBlock>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>Nagłówek
+                            </GridViewColumn>
 
                             <GridViewColumn  Width="200" >
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <TextBlock TextWrapping="Wrap" Text="{Binding tresc}"></TextBlock>
+                                        <TextBlock TextWrapping="Wrap" Text="{Binding opis}"></TextBlock>
                                     </DataTemplate>
-                                </GridViewColumn.CellTemplate>
+                                </GridViewColumn.CellTemplate>Opis
                             </GridViewColumn>
                             <GridViewColumn  Width="200">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
                                         <TextBlock TextWrapping="Wrap" Text="{Binding czasZapisania, Converter={StaticResource Converter}}"></TextBlock>
                                     </DataTemplate>
-                                </GridViewColumn.CellTemplate>
+                                </GridViewColumn.CellTemplate>Czas pobrania
                             </GridViewColumn>
                             <GridViewColumn  Width="200">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
                                         <TextBlock >
-                                            <Hyperlink NavigateUri="{Binding link}" RequestNavigate="Hyperlink_RequestNavigate" >Link do artykułu</Hyperlink>
+                                            <Hyperlink NavigateUri="{Binding link}" RequestNavigate="Hyperlink_RequestNavigate" >Link</Hyperlink>
                                         </TextBlock>
                                     </DataTemplate>
-                                </GridViewColumn.CellTemplate>
+                                </GridViewColumn.CellTemplate>Link do artykułu
                             </GridViewColumn>
                         </GridView>
                     </ListView.View>
