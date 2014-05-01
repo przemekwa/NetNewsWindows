@@ -15,8 +15,6 @@ namespace Gazeta.pl.Presentation.Converters
 
             if (value == null)
                 return value;
-
-
             DateTime? date = value as DateTime?;
 
             if (date == null)
@@ -27,7 +25,6 @@ namespace Gazeta.pl.Presentation.Converters
             {
                 return DateTime.Parse(date.ToString()).ToString ("dd-MM-yyyy HH:mm:ss");
             }
-           
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)

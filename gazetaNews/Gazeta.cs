@@ -37,6 +37,9 @@ namespace gazetaNews
                         lista.Add(wiadomosc);
                     }
                 }
+
+             
+
                 return lista;
             }
         }

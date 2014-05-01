@@ -5,44 +5,40 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
         xmlns:vm="clr-namespace:Gazeta.pl.Applications.ViewModels"
         xmlns:l="clr-namespace:Gazeta.pl.Presentation.Converters"
-        mc:Ignorable="d" Title="{Binding Title}" Icon="{StaticResource ApplicationIcon}" Width="525" Height="350"
+        mc:Ignorable="d" Title="{Binding Title}" Icon="{StaticResource ApplicationIcon}" Width="582" Height="388"
         d:DataContext="{d:DesignInstance vm:ShellViewModel}">
     <Window.Resources>
         <l:DateTimeToString x:Key="Converter"></l:DateTimeToString>
     </Window.Resources>
 
-    <DockPanel>
-        <Menu DockPanel.Dock="Top">
-            <MenuItem Header="_Plik">
-                <MenuItem Header="E_xit" Command="{Binding ExitCommand}"/>
-                <Button>sss</Button>
-            </MenuItem>
-        </Menu>
-        <TextBlock>     
-  
-        </TextBlock>
-        <Grid>
+    <StackPanel>
+                  
+    
+    <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
             <StackPanel>
-                <StackPanel Orientation="Horizontal">
+                 <StackPanel Orientation="Horizontal">
                     <Label Name="Test">Czas odświeżania:</Label>
                     <Label Name="odswiezenie" Content="{Binding Czas}"></Label>
                     <Button Width="40" Command="{Binding startStop}" Content="{Binding onOff}"></Button>
-                    <TextBlock>           
-    
+                    <TextBlock>
+
                     </TextBlock>
                 </StackPanel>
-                
-                <ListView ItemsSource="{Binding KolekcjaWiadomosci}" > 
-              
-                <ListView.View>
-                        
-                            <GridView>
-                        
-                        
-                            <GridViewColumn  Width="200">
+
+                <ListView Height="300" ItemsSource="{Binding KolekcjaWiadomosci}">
+
+                    <ListView.View>
+
+                        <GridView>
+                           
+
+                            <GridViewColumn  Width="200" >
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        
                                         <TextBlock TextWrapping="Wrap" Text="{Binding tresc}"></TextBlock>
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
@@ -54,7 +50,6 @@
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
-                         
                             <GridViewColumn  Width="200">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
@@ -64,11 +59,11 @@
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
-                    </GridView>
-                </ListView.View>
-            </ListView>
-                </StackPanel>
-                
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </StackPanel>
+
         </Grid>
-    </DockPanel>
+    </StackPanel>
 </Window>

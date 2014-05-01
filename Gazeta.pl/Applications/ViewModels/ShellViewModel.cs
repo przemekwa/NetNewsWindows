@@ -25,7 +25,7 @@ namespace Gazeta.pl.Applications.ViewModels
 
             onOff = onoff.OFF.ToString();
             exitCommand = new DelegateCommand(Close);
-            startStopCommand = new DelegateCommand(WypelniListe);
+            startStopCommand = new DelegateCommand(WypelnijListe);
         }
 
 
@@ -71,9 +71,7 @@ namespace Gazeta.pl.Applications.ViewModels
         }
 
         public ObservableCollection<news> KolekcjaWiadomosci { get; set; }
-
-
-
+        
 
         public void Show()
         {
@@ -91,7 +89,7 @@ namespace Gazeta.pl.Applications.ViewModels
 
         }
 
-        public void WypelniListe()
+        public void WypelnijListe()
         {
             if (dt.IsEnabled)
             {
@@ -124,8 +122,31 @@ namespace Gazeta.pl.Applications.ViewModels
             Czas = System.DateTime.Now.ToString("HH:mm:ss");
 
            // KolekcjaWiadomosci.Clear();
+            
+          
+            var wiadomosci = gazeta.PobierzWiadomosci();
 
-            gazeta.PobierzWiadomosci().ForEach(wiadomosc => KolekcjaWiadomosci.Add(wiadomosc));
+
+            if (KolekcjaWiadomosci.Count != 0)
+            {
+              foreach (var w in wiadomosci)
+                {
+                    foreach (var k in KolekcjaWiadomosci)
+                    {
+                        if (w.link != k.link)
+                        {
+                            KolekcjaWiadomosci.Add(w);
+                            break;
+                        }
+
+                    }
+                    
+                }
+            }
+            else
+            {
+                gazeta.PobierzWiadomosci().ForEach(wi => KolekcjaWiadomosci.Add(wi));
+            }
         }
 
        
