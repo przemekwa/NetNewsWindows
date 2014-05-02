@@ -24,7 +24,7 @@ namespace Gazeta.pl.Applications.ViewModels
         {
             this.KolekcjaWiadomosci = new ObservableCollection<NewsData>();
 
-            onOff = onoff.OFF.ToString();
+            onOff = onoff.Wyłączony.ToString();
             exitCommand = new DelegateCommand(Close);
             startStopCommand = new DelegateCommand(WypelnijListe);
         }
@@ -95,7 +95,7 @@ namespace Gazeta.pl.Applications.ViewModels
             if (dt.IsEnabled)
             {
                 dt.Stop();
-                onOff = onoff.OFF.ToString();
+                onOff = onoff.Wyłączony.ToString();
             }
             else
             {
@@ -107,7 +107,7 @@ namespace Gazeta.pl.Applications.ViewModels
                 dt_Tick(new object(), new System.EventArgs());
 
                 
-                onOff = onoff.ON.ToString();
+                onOff = onoff.Włączony.ToString();
             }
         }
 

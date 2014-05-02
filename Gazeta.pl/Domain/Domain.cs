@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Gazeta.pl.Domain
 {
-     enum onoff { ON, OFF};
+     enum onoff { Włączony, Wyłączony};
 
 
 

@@ -36,10 +36,11 @@
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
                             </Grid.ColumnDefinitions>
 
                             <Button Margin="10" Grid.Column="0" Width="100" Height="30" Command="{Binding startStop}" Content="{Binding onOff}">
-                            </Button>
+                             </Button>
 
                         </Grid>
                     </GroupBox>
@@ -57,7 +58,7 @@
                             <GridViewColumn  Width="200" >
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <Image Source="{Binding obrazek_link}"></Image>
+                                        <Image Margin="10"  Source="{Binding obrazek_link}"></Image>
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate> Obrazek
                             </GridViewColumn>
