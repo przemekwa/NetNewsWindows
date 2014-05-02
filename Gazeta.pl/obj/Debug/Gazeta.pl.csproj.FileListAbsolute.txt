@@ -22,3 +22,6 @@ D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\gazetaNews.pdb
 D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\HtmlAgilityPack.pdb
 D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\HtmlAgilityPack.xml
 D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\MahApps.Metro.dll
+D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\System.Windows.Interactivity.dll
+D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\MahApps.Metro.xml

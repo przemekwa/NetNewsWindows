@@ -1,15 +1,17 @@
-﻿<Window x:Class="Gazeta.pl.Presentation.Views.ShellWindow"
+﻿<controls:MetroWindow  ShowIconOnTitleBar="False" x:Class="Gazeta.pl.Presentation.Views.ShellWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
         xmlns:vm="clr-namespace:Gazeta.pl.Applications.ViewModels"
         xmlns:l="clr-namespace:Gazeta.pl.Presentation.Converters"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         mc:Ignorable="d" Title="{Binding Title}" Icon="{StaticResource ApplicationIcon}" 
         d:DataContext="{d:DesignInstance vm:ShellViewModel}" Height="557" Width="927">
-    <Window.Resources>
+    <controls:MetroWindow.Resources>
         <l:DateTimeToString x:Key="Converter"></l:DateTimeToString>
-    </Window.Resources>
+    </controls:MetroWindow.Resources>
+
 
     <StackPanel>
 
@@ -96,4 +98,4 @@
             </StackPanel>
         </Grid>
     </StackPanel>
-</Window>
+</controls:MetroWindow>

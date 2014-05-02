@@ -3,14 +3,16 @@ using System.Windows;
 using Gazeta.pl.Applications.Views;
 using System.Windows.Navigation;
 using System.Diagnostics;
+using MahApps.Metro.Controls;
 
 namespace Gazeta.pl.Presentation.Views
 {
     [Export(typeof(IShellView))]
-    public partial class ShellWindow : Window, IShellView
+    public partial class ShellWindow : MetroWindow, IShellView
     {
         public ShellWindow()
         {
+            
             InitializeComponent();
         }
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
@@ -19,5 +21,7 @@ namespace Gazeta.pl.Presentation.Views
             e.Handled = true;
         }
 
+
     }
+
 }
