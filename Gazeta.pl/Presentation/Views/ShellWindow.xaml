@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
         xmlns:vm="clr-namespace:Gazeta.pl.Applications.ViewModels"
         xmlns:l="clr-namespace:Gazeta.pl.Presentation.Converters"
-        mc:Ignorable="d" Title="{Binding Title}" Icon="{StaticResource ApplicationIcon}" Width="1037" Height="406"
-        d:DataContext="{d:DesignInstance vm:ShellViewModel}">
+        mc:Ignorable="d" Title="{Binding Title}" Icon="{StaticResource ApplicationIcon}" 
+        d:DataContext="{d:DesignInstance vm:ShellViewModel}" Height="557" Width="927">
     <Window.Resources>
         <l:DateTimeToString x:Key="Converter"></l:DateTimeToString>
     </Window.Resources>
@@ -15,21 +15,39 @@
 
 
         <Grid >
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
+           
             <StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Label Name="Test">Czas odświeżania:</Label>
-                    <Label Name="odswiezenie" Content="{Binding Czas}"></Label>
-                    <Button Width="40" Command="{Binding startStop}" Content="{Binding onOff}"></Button>
-                    <TextBlock>
+                    <GroupBox Margin="20" Header="Informacje"> 
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
 
-                    </TextBlock>
+                            <Label Margin="10" Name="Test" Grid.Column="0">Czas odświeżania:</Label>
+                            <Label Margin="10" Name="odswiezenie" Content="{Binding Czas}" Width="60" Grid.Column="1"></Label>
+                    
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Margin="20" Header="Funkcje">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Button Margin="10" Grid.Column="0" Width="100" Height="30" Command="{Binding startStop}" Content="{Binding onOff}">
+                            </Button>
+
+                        </Grid>
+                    </GroupBox>
+                    
+                  
+
+                    
                 </StackPanel>
 
-                <ListView Height="300" ItemsSource="{Binding KolekcjaWiadomosci}">
+                <ListView  Height="400" ItemsSource="{Binding KolekcjaWiadomosci}" HorizontalAlignment="Left" Margin="20,20,0,20" Width="864">
 
                     <ListView.View>
 
@@ -49,7 +67,6 @@
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate> Nagłówek
                             </GridViewColumn>
-
                             <GridViewColumn  Width="200" >
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
@@ -57,14 +74,14 @@
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate> Opis
                             </GridViewColumn>
-                            <GridViewColumn  Width="200">
+                            <GridViewColumn>
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
                                         <TextBlock TextWrapping="Wrap" Text="{Binding czasZapisania, Converter={StaticResource Converter}}"></TextBlock>
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate> Czas pobrania
                             </GridViewColumn>
-                            <GridViewColumn  Width="200">
+                            <GridViewColumn>
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
                                         <TextBlock >
@@ -77,7 +94,6 @@
                     </ListView.View>
                 </ListView>
             </StackPanel>
-
         </Grid>
     </StackPanel>
 </Window>

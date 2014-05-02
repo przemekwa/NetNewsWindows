@@ -109,11 +109,6 @@ namespace Gazeta.pl.Applications.ViewModels
                 
                 onOff = onoff.ON.ToString();
             }
-              
-            
-           
-            
-           
         }
 
         void dt_Tick(object sender, System.EventArgs e)
@@ -125,24 +120,22 @@ namespace Gazeta.pl.Applications.ViewModels
             var wiadomosc = gazeta.PobierzWiadomosc();
 
             if (!wiadomosc.isNull)
-            {               
-                   bool czyJest = false;
+            {
+                bool czyJest = false;
 
-                   foreach (var k in KolekcjaWiadomosci)
+                foreach (var k in KolekcjaWiadomosci)
+                {
+                    if (!StructuralComparisons.StructuralEqualityComparer.Equals(k.hash, wiadomosc.hash))
                     {
-                       if (StructuralComparisons.StructuralEqualityComparer.Equals(k.hash, wiadomosc.hash))
-                       {
-                           czyJest = true;
-                       }
+                        czyJest = true;
                     }
+                }
 
                 if (!czyJest)
                 {
                     KolekcjaWiadomosci.Add(wiadomosc);
                 }
-                }
-             
-            
+            }
         }
     }
 }
