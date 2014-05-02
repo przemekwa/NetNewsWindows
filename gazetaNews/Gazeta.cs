@@ -6,7 +6,7 @@
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-
+    
     public class Gazeta : IGazetaNews
     {
         public NewsData PobierzWiadomosc()

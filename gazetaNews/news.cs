@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace gazetaNews
 {
+    [Serializable()]
+    [System.Xml.Serialization.XmlInclude(typeof(News))]
+    [System.Xml.Serialization.XmlInclude(typeof(EmptyNews))]
     public abstract class NewsData
     {
         public abstract bool isNull { get;}

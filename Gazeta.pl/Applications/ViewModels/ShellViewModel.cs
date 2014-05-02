@@ -17,6 +17,7 @@ namespace Gazeta.pl.Applications.ViewModels
     {
         private readonly DelegateCommand exitCommand;
         private readonly DelegateCommand startStopCommand;
+        private readonly DelegateCommand ReadXMLFileCommand;
         
         [ImportingConstructor]
         public ShellViewModel(IShellView view)
@@ -27,6 +28,7 @@ namespace Gazeta.pl.Applications.ViewModels
             onOff = onoff.Wyłączony.ToString();
             exitCommand = new DelegateCommand(Close);
             startStopCommand = new DelegateCommand(WypelnijListe);
+            ReadXMLFileCommand = new DelegateCommand(WczytajXML);
         }
 
 
@@ -35,6 +37,8 @@ namespace Gazeta.pl.Applications.ViewModels
         public ICommand ExitCommand { get { return exitCommand; } }
 
         public ICommand startStop { get { return startStopCommand; } }
+
+        public ICommand WczytajPlik { get { return ReadXMLFileCommand; } }
 
         string _onOff {get; set;}
 
@@ -111,6 +115,16 @@ namespace Gazeta.pl.Applications.ViewModels
             }
         }
 
+        void WczytajXML()
+        {
+            var wiadomosci = XMLFile.XMLToType<ObservableCollection<NewsData>>("test.xml");
+
+            foreach (var w in wiadomosci)
+            {
+                KolekcjaWiadomosci.Add(w);
+            }
+        }
+
         void dt_Tick(object sender, System.EventArgs e)
         {
             gazetaNews.Gazeta gazeta = new gazetaNews.Gazeta();
@@ -134,6 +148,7 @@ namespace Gazeta.pl.Applications.ViewModels
                 if (!czyJest)
                 {
                     KolekcjaWiadomosci.Add(wiadomosc);
+                    XMLFile.TypeToXML<ObservableCollection<NewsData>>(KolekcjaWiadomosci, "test.xml");
                 }
             }
         }
