@@ -3,9 +3,7 @@ using System.Waf.Applications;
 using System.Windows.Input;
 using Gazeta.pl.Applications.Views;
 using System.Collections.ObjectModel;
-using Gazeta.pl;
 using gazetaNews;
-using System.Timers;
 using System.Windows.Threading;
 using Gazeta.pl.Domain;
 using System.Collections;
@@ -18,7 +16,7 @@ namespace Gazeta.pl.Applications.ViewModels
         private readonly DelegateCommand exitCommand;
         private readonly DelegateCommand startStopCommand;
         private readonly DelegateCommand ReadXMLFileCommand;
-        
+
         [ImportingConstructor]
         public ShellViewModel(IShellView view)
             : base(view)
@@ -117,7 +115,7 @@ namespace Gazeta.pl.Applications.ViewModels
 
         void WczytajXML()
         {
-            var wiadomosci = XMLFile.XMLToType<ObservableCollection<NewsData>>("test.xml");
+            var wiadomosci = XMLFile.XMLToType<ObservableCollection<NewsData>>();
 
             foreach (var w in wiadomosci)
             {
@@ -139,7 +137,7 @@ namespace Gazeta.pl.Applications.ViewModels
 
                 foreach (var k in KolekcjaWiadomosci)
                 {
-                    if (!StructuralComparisons.StructuralEqualityComparer.Equals(k.hash, wiadomosc.hash))
+                    if (StructuralComparisons.StructuralEqualityComparer.Equals(k.hash, wiadomosc.hash))
                     {
                         czyJest = true;
                     }
@@ -148,7 +146,7 @@ namespace Gazeta.pl.Applications.ViewModels
                 if (!czyJest)
                 {
                     KolekcjaWiadomosci.Add(wiadomosc);
-                    XMLFile.TypeToXML<ObservableCollection<NewsData>>(KolekcjaWiadomosci, "test.xml");
+                    XMLFile.TypeToXML<ObservableCollection<NewsData>>(KolekcjaWiadomosci);
                 }
             }
         }

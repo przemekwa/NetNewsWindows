@@ -8,8 +8,10 @@ namespace Gazeta.pl.Domain
 {
     public static class XMLFile
     {
-        public static void TypeToXML<T>(this T ob, string fileName)
+        public static void TypeToXML<T>(this T ob)
         {
+            var fileName = typeof(T).Name + ".xml";
+
             XmlSerializer xml = new XmlSerializer(typeof(T));
 
             using (var file = new StreamWriter(fileName))
@@ -18,8 +20,10 @@ namespace Gazeta.pl.Domain
             }
         }
 
-        public static T XMLToType<T>(string fileName)
+        public static T XMLToType<T>()
         {
+            var fileName = typeof(T).Name + ".xml";
+            
             XmlSerializer xml = new XmlSerializer(typeof(T));
 
             T rezult;
@@ -30,8 +34,6 @@ namespace Gazeta.pl.Domain
             }
 
             return rezult;
-
-
         }
     }
 }
