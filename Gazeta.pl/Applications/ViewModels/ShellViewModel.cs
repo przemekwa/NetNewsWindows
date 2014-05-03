@@ -24,6 +24,7 @@ namespace Gazeta.pl.Applications.ViewModels
             this.KolekcjaWiadomosci = new ObservableCollection<NewsData>();
 
             onOff = onoff.Wyłączony.ToString();
+            naŻywo = false;
             exitCommand = new DelegateCommand(Close);
             startStopCommand = new DelegateCommand(WypelnijListe);
             ReadXMLFileCommand = new DelegateCommand(WczytajXML);
@@ -39,6 +40,22 @@ namespace Gazeta.pl.Applications.ViewModels
         public ICommand WczytajPlik { get { return ReadXMLFileCommand; } }
 
         string _onOff {get; set;}
+
+        bool _naŻywo { get; set; }
+
+        public bool naŻywo
+        {
+            get
+            {
+                return _naŻywo;
+            }
+
+            set
+            {
+                _naŻywo = value;
+                RaisePropertyChanged("naŻywo");
+            }
+        }
 
 
         DispatcherTimer dt = new DispatcherTimer();
@@ -141,6 +158,11 @@ namespace Gazeta.pl.Applications.ViewModels
                     {
                         czyJest = true;
                     }
+                }
+
+                if (naŻywo)
+                {
+                    czyJest = false;
                 }
 
                 if (!czyJest)
