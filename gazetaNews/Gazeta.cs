@@ -13,11 +13,15 @@
         {
             var lista = new List<News>();
 
-            using (var plikHtm = new HTMLtoFile("http://www.gazeta.pl/0,0.html"))
-            {
+                HtmlWeb web = new HtmlWeb
+                {
+                    AutoDetectEncoding = false,
+                    OverrideEncoding = Encoding.GetEncoding("iso-8859-2")
+                };
+
                 HtmlDocument doc = new HtmlDocument();
-                
-                doc.Load(plikHtm.ConvertHTMLtoFile());
+
+                doc = web.Load("http://www.gazeta.pl/0,0.html");
 
                 var nagłowek = doc.DocumentNode.SelectSingleNode("//div[@class=\"c0 wide\"]/header/h1/a");
                 
@@ -50,7 +54,7 @@
                     }
                 }
                 return new EmptyNews();
-            }
+            
         }
     }
 }

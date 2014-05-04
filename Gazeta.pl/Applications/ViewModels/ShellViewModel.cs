@@ -120,7 +120,6 @@ namespace Gazeta.pl.Applications.ViewModels
         public void Odswiez()
         {
             dt_Tick(null, new System.EventArgs());
-
         }
         public void WypelnijListe()
         {
