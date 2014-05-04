@@ -16,6 +16,7 @@ namespace Gazeta.pl.Applications.ViewModels
         private readonly DelegateCommand exitCommand;
         private readonly DelegateCommand startStopCommand;
         private readonly DelegateCommand ReadXMLFileCommand;
+        private readonly DelegateCommand RefreshCommand;
 
         [ImportingConstructor]
         public ShellViewModel(IShellView view)
@@ -28,6 +29,7 @@ namespace Gazeta.pl.Applications.ViewModels
             exitCommand = new DelegateCommand(Close);
             startStopCommand = new DelegateCommand(WypelnijListe);
             ReadXMLFileCommand = new DelegateCommand(WczytajXML);
+            RefreshCommand = new DelegateCommand(Odswiez);
         }
 
 
@@ -39,9 +41,15 @@ namespace Gazeta.pl.Applications.ViewModels
 
         public ICommand WczytajPlik { get { return ReadXMLFileCommand; } }
 
+        public ICommand Odśwież { get { return RefreshCommand; } }
+
+
         string _onOff {get; set;}
 
         bool _naŻywo { get; set; }
+
+
+        
 
         public bool naŻywo
         {
@@ -109,6 +117,11 @@ namespace Gazeta.pl.Applications.ViewModels
 
         }
 
+        public void Odswiez()
+        {
+            dt_Tick(null, new System.EventArgs());
+
+        }
         public void WypelnijListe()
         {
             if (dt.IsEnabled)
@@ -140,6 +153,7 @@ namespace Gazeta.pl.Applications.ViewModels
             }
         }
 
+        
         void dt_Tick(object sender, System.EventArgs e)
         {
             gazetaNews.Gazeta gazeta = new gazetaNews.Gazeta();
@@ -158,14 +172,18 @@ namespace Gazeta.pl.Applications.ViewModels
                     {
                         czyJest = true;
                     }
+
+                    if (naŻywo)
+                    {
+                        if (k.obrazek_link != wiadomosc.obrazek_link)
+                        {
+                            czyJest = false;
+                        }
+                    }
                 }
 
-                if (naŻywo)
-                {
-                    czyJest = false;
-                }
-
-                if (!czyJest)
+               
+                if (!czyJest)  
                 {
                     KolekcjaWiadomosci.Add(wiadomosc);
                     XMLFile.TypeToXML<ObservableCollection<NewsData>>(KolekcjaWiadomosci);
