@@ -50,11 +50,11 @@
 
                     
                 </StackPanel>
-             
-                    <ListView Height="370" DockPanel.Dock="Bottom"   ItemsSource="{Binding KolekcjaWiadomosci}" HorizontalAlignment="Left" Margin="20,20,0,20" Width="864">
+                <DockPanel>
+                    <ListView Height="370" ItemsSource="{Binding KolekcjaWiadomosci}" HorizontalAlignment="Left" Margin="20,20,0,20" Width="864">
                     <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <StackPanel Orientation="Horizontal">
+                        <DataTemplate >
+                            <StackPanel  Orientation="Horizontal">
                                 <Image Width="200"  Margin="10"  Source="{Binding obrazek_link}"></Image>
                                 <TextBlock Margin="10" TextWrapping="Wrap" Width="170" Text="{Binding naglowek}"></TextBlock>
                                 <TextBlock Margin="10" TextWrapping="Wrap" Width="170" Text="{Binding opis}"></TextBlock>
@@ -67,7 +67,7 @@
                     </ListView.ItemTemplate>
 
                                    </ListView>
-              
+                </DockPanel>
             </StackPanel>
         </Grid>
     </StackPanel>
