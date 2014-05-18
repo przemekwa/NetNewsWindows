@@ -14,11 +14,8 @@
 
 
     <StackPanel>
-
-
         <Grid >
-           
-            <StackPanel>
+                      <StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <GroupBox Margin="20" Header="Informacje"> 
                         <Grid>
@@ -53,8 +50,8 @@
 
                     
                 </StackPanel>
-
-                <ListView  Height="400" ItemsSource="{Binding KolekcjaWiadomosci}" HorizontalAlignment="Left" Margin="20,20,0,20" Width="864">
+             
+                    <ListView Height="370" DockPanel.Dock="Bottom"   ItemsSource="{Binding KolekcjaWiadomosci}" HorizontalAlignment="Left" Margin="20,20,0,20" Width="864">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
@@ -70,6 +67,7 @@
                     </ListView.ItemTemplate>
 
                                    </ListView>
+              
             </StackPanel>
         </Grid>
     </StackPanel>

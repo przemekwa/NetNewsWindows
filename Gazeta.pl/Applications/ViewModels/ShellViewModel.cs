@@ -7,6 +7,7 @@ using gazetaNews;
 using System.Windows.Threading;
 using Gazeta.pl.Domain;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace Gazeta.pl.Applications.ViewModels
 {
@@ -184,10 +185,13 @@ namespace Gazeta.pl.Applications.ViewModels
                
                 if (!czyJest)  
                 {
-                    KolekcjaWiadomosci.Add(wiadomosc);
+                    KolekcjaWiadomosci.Insert(0, wiadomosc);
+                    
                     XMLFile.TypeToXML<ObservableCollection<NewsData>>(KolekcjaWiadomosci);
                 }
             }
         }
+
+       
     }
 }

@@ -21,7 +21,14 @@
 
                 HtmlDocument doc = new HtmlDocument();
 
-                doc = web.Load("http://www.gazeta.pl/0,0.html");
+                try
+                {
+                    doc = web.Load("http://www.gazeta.pl/0,0.html");
+                }
+                catch
+                {
+                    return new EmptyNews();
+                }
 
                 var nagłowek = doc.DocumentNode.SelectSingleNode("//div[@class=\"c0 wide\"]/header/h1/a");
                 
