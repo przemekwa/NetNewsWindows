@@ -25,3 +25,5 @@ D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\obj\Debug\GeneratedInternalTypeHelper
 D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\MahApps.Metro.dll
 D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\System.Windows.Interactivity.dll
 D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\MahApps.Metro.xml
+D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\Growl.Connector.dll
+D:\Dropbox\c#\Projects\Gazeta.pl\Gazeta.pl\bin\Debug\Growl.CoreLibrary.dll

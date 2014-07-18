@@ -8,6 +8,8 @@ using System.Windows.Threading;
 using Gazeta.pl.Domain;
 using System.Collections;
 using System.Collections.Generic;
+using Growl.Connector;
+using System.Drawing;
 
 namespace Gazeta.pl.Applications.ViewModels
 {
@@ -18,6 +20,8 @@ namespace Gazeta.pl.Applications.ViewModels
         private readonly DelegateCommand startStopCommand;
         private readonly DelegateCommand ReadXMLFileCommand;
         private readonly DelegateCommand RefreshCommand;
+
+        private GrowlConnector growl;
 
         [ImportingConstructor]
         public ShellViewModel(IShellView view)
@@ -31,6 +35,10 @@ namespace Gazeta.pl.Applications.ViewModels
             startStopCommand = new DelegateCommand(WypelnijListe);
             ReadXMLFileCommand = new DelegateCommand(WczytajXML);
             RefreshCommand = new DelegateCommand(Odswiez);
+            this.growl = new GrowlConnector();
+
+            Application app = new Application("Gazeta.pl");
+
         }
 
 
@@ -182,10 +190,18 @@ namespace Gazeta.pl.Applications.ViewModels
                     }
                 }
 
+              
+
+                
                
                 if (!czyJest)  
                 {
                     KolekcjaWiadomosci.Insert(0, wiadomosc);
+
+                    Notification notification = new Notification("Gazeta.pl", "Test2", wiadomosc.czasZapisania.ToString(), wiadomosc.naglowek, wiadomosc.opis);
+                 
+                    growl.Notify(notification);
+
                     
                     XMLFile.TypeToXML<ObservableCollection<NewsData>>(KolekcjaWiadomosci);
                 }
