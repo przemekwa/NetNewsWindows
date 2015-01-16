@@ -44,7 +44,7 @@
                         {
                             var wiadomosc = new News();
 
-                            wiadomosc.link = nagłowek.GetAttributeValue("href", "brak");
+                            wiadomosc.link = opis.GetAttributeValue("href", "brak");
 
                             wiadomosc.naglowek = nagłowek.InnerText;
 
