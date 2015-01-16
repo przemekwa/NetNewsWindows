@@ -30,15 +30,15 @@
                     return new EmptyNews();
                 }
 
-                var nagłowek = doc.DocumentNode.SelectSingleNode("//div[@class=\"c0 wide\"]/header/h1/a");
+                var nagłowek = doc.DocumentNode.SelectSingleNode("//h2[@class=\"mt_pict_title \"]/a/span[@class=\"title\"]");
                 
                 if (nagłowek != null)
                 {
-                    var obrazek = doc.DocumentNode.SelectSingleNode("//div[@class=\"imgw\"]/a[@id=\"LinkArea:MT\"]/img");
+                    var obrazek = doc.DocumentNode.SelectSingleNode("//div[@class=\"mt_pict_layer\"]/a[@id=\"LinkArea:MT\"]/img");
 
                     if (obrazek != null)
                     {
-                        var opis = doc.DocumentNode.SelectSingleNode("//div[@class=\"lead\"]/p/span/a[@id=\"LinkArea:MT\"]");
+                        var opis = doc.DocumentNode.SelectSingleNode("//div[@class=\"mt_txt_layer\"]/p/a[@id=\"LinkArea:MT\"]");
 
                         if (opis != null)
                         {

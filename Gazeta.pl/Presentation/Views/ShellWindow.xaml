@@ -1,4 +1,4 @@
-﻿<controls:MetroWindow  ShowIconOnTitleBar="False" x:Class="Gazeta.pl.Presentation.Views.ShellWindow"
+﻿<controls:MetroWindow  ShowIconOnTitleBar="True"   x:Class="Gazeta.pl.Presentation.Views.ShellWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
@@ -6,7 +6,7 @@
         xmlns:vm="clr-namespace:Gazeta.pl.Applications.ViewModels"
         xmlns:l="clr-namespace:Gazeta.pl.Presentation.Converters"
         xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
-        mc:Ignorable="d" Title="{Binding Title}" Icon="{StaticResource ApplicationIcon}" 
+        mc:Ignorable="d" Title="{Binding Title}"  Icon="Ikona.ico" 
         d:DataContext="{d:DesignInstance vm:ShellViewModel}" Height="557" Width="927">
     <controls:MetroWindow.Resources>
         <l:DateTimeToString x:Key="Converter"></l:DateTimeToString>
