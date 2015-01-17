@@ -11,6 +11,7 @@ using Growl.Connector;
 using System.Drawing;
 using NetNewsWindowsPluginManager;
 using NetNewsWindowsPluginDomain;
+using System.Linq;
 
 namespace Gazeta.pl.Applications.ViewModels
 {
@@ -36,7 +37,10 @@ namespace Gazeta.pl.Applications.ViewModels
             startStopCommand = new DelegateCommand(WypelnijListe);
             ReadXMLFileCommand = new DelegateCommand(WczytajXML);
             RefreshCommand = new DelegateCommand(Odswiez);
+            
+            
             this.growl = new GrowlConnector();
+
 
             Application app = new Application("Gazeta.pl");
 
@@ -52,6 +56,23 @@ namespace Gazeta.pl.Applications.ViewModels
         public ICommand WczytajPlik { get { return ReadXMLFileCommand; } }
 
         public ICommand Odśwież { get { return RefreshCommand; } }
+
+
+        private short pluginNumber;
+
+        public short PluginNumber
+        {
+            get
+            {
+                return pluginNumber;
+            }
+
+            set
+            {
+                pluginNumber = value;
+                RaisePropertyChanged("PluginNumber");
+            }
+        }
 
 
         string _onOff {get; set;}
@@ -168,6 +189,8 @@ namespace Gazeta.pl.Applications.ViewModels
             Czas = System.DateTime.Now.ToString("HH:mm:ss");
 
             var pluginManager = new PluginManager();
+
+            this.PluginNumber = (short)pluginManager.GetNewsPlugins().Count();
 
             var czyJest = false;
 

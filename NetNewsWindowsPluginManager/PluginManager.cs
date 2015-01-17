@@ -24,11 +24,6 @@ namespace NetNewsWindowsPluginManager
             }
         }
 
-        public IEnumerable<INewsPlugin> GetPlugins()
-        {
-            return this.GetNewsPlugins();
-        }
-
         public IEnumerable<INewsPlugin> GetNewsPlugins()
         {
             DirectoryCatalog dir = new DirectoryCatalog(AppDomain.CurrentDomain.BaseDirectory + @"\plugins");

@@ -19,14 +19,23 @@
                 <StackPanel Orientation="Horizontal">
                     <GroupBox Margin="20" Header="Informacje"> 
                         <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition></ColumnDefinition>
-                                <ColumnDefinition></ColumnDefinition>
-                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
 
-                            <Label Margin="10" Name="Test" Grid.Column="0">Czas odświeżania:</Label>
-                            <Label Margin="10" Name="odswiezenie" Content="{Binding Czas}" Width="60" Grid.Column="1"></Label>
-                    
+                            <StackPanel Orientation="Horizontal" Grid.Row="0">                                        
+                                <Label Margin="10">Czas odświeżania:</Label>
+                                <Label Margin="10" Content="{Binding Czas}" Width="60"></Label>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" Grid.Row="1">
+                                <Label Margin="10">Ilość pluginów:</Label>
+                                <Label Margin="10" Content="{Binding PluginNumber}" Width="60"></Label>
+                            </StackPanel>
+
+
+
                         </Grid>
                     </GroupBox>
                     <GroupBox Margin="20" Header="Funkcje">
