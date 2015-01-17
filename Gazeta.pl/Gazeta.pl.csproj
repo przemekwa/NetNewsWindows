@@ -130,9 +130,9 @@
     <CodeAnalysisDictionary Include="Properties\CodeAnalysisDictionary.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\gazetaNews\gazetaNews.csproj">
-      <Project>{25012e05-21e8-483a-9f6c-afafc1d6f276}</Project>
-      <Name>gazetaNews</Name>
+    <ProjectReference Include="..\NetNewsWindowsPluginManager\NetNewsWindowsPluginManager.csproj">
+      <Project>{948366d2-2296-45d5-915e-ae83921d8091}</Project>
+      <Name>NetNewsWindowsPluginManager</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

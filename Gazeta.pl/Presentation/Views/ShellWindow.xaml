@@ -55,12 +55,12 @@
                     <ListView.ItemTemplate>
                         <DataTemplate >
                             <StackPanel  Orientation="Horizontal">
-                                <Image Width="200"  Margin="10"  Source="{Binding obrazek_link}"></Image>
-                                <TextBlock Margin="10" TextWrapping="Wrap" Width="170" Text="{Binding naglowek}"></TextBlock>
-                                <TextBlock Margin="10" TextWrapping="Wrap" Width="170" Text="{Binding opis}"></TextBlock>
+                                <Image Width="200"  Margin="10"  Source="{Binding ImgUrl}"></Image>
+                                <TextBlock Margin="10" TextWrapping="Wrap" Width="170" Text="{Binding Header}"></TextBlock>
+                                <TextBlock Margin="10" TextWrapping="Wrap" Width="170" Text="{Binding News}"></TextBlock>
                                 <TextBlock Margin="10" TextWrapping="Wrap" Width="170" Text="{Binding czasZapisania, Converter={StaticResource Converter}}"></TextBlock>
                                 <TextBlock Margin="10" >
-                                            <Hyperlink NavigateUri="{Binding link}" RequestNavigate="Hyperlink_RequestNavigate" >Link</Hyperlink>
+                                            <Hyperlink NavigateUri="{Binding NewsUrl}" RequestNavigate="Hyperlink_RequestNavigate" >Link</Hyperlink>
                                 </TextBlock>
                             </StackPanel>
                         </DataTemplate>

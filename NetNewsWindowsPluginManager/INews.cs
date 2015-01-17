@@ -8,8 +8,9 @@ namespace NetNewsWindowsPluginManager
 {
     public interface INews
     {
-        string Url { get; }
+        string NewsUrl { get; }
         string Header { get; }
         string News { get; }
+        string ImgUrl { get; }
     }
 }

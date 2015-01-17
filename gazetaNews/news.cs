@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NetNewsWindowsPluginManager;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace gazetaNews
     [Serializable()]
     [System.Xml.Serialization.XmlInclude(typeof(News))]
     [System.Xml.Serialization.XmlInclude(typeof(EmptyNews))]
-    public abstract class NewsData
+    public abstract class NewsData : INews
     {
         public abstract bool isNull { get;}
         
@@ -19,6 +20,26 @@ namespace gazetaNews
         public string obrazek_link { get; set; }
         public string opis { get; set; }
         public byte[] hash { get; set; }
+
+        public string NewsUrl
+        {
+            get { return this.link; }
+        }
+
+        public string Header
+        {
+            get { return this.naglowek; }
+        }
+
+        public string News
+        {
+            get { return this.opis; }
+        }
+
+        public string ImgUrl
+        {
+            get { return this.obrazek_link; }
+        }
     }
     
     public class News : NewsData

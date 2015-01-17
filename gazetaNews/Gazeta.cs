@@ -6,8 +6,12 @@
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    
-    public class Gazeta : IGazetaNews
+    using NetNewsWindowsPluginManager;
+    using System.ComponentModel.Composition;
+
+
+    [Export(typeof(INewsPlugin))]
+    public class Gazeta : INewsPlugin
     {
         public NewsData PobierzWiadomosc()
         {
@@ -62,6 +66,11 @@
                 }
                 return new EmptyNews();
             
+        }
+
+        public IEnumerable<INews> GetNews()
+        {
+            yield return this.PobierzWiadomosc();
         }
     }
 }

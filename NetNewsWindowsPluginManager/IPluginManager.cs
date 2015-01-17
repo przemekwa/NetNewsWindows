@@ -8,6 +8,7 @@ namespace NetNewsWindowsPluginManager
 {
     interface IPluginManager
     {
+      
         IEnumerable<INews> GetNews();
     }
 }

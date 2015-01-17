@@ -3,13 +3,13 @@ using System.Waf.Applications;
 using System.Windows.Input;
 using Gazeta.pl.Applications.Views;
 using System.Collections.ObjectModel;
-using gazetaNews;
 using System.Windows.Threading;
 using Gazeta.pl.Domain;
 using System.Collections;
 using System.Collections.Generic;
 using Growl.Connector;
 using System.Drawing;
+using NetNewsWindowsPluginManager;
 
 namespace Gazeta.pl.Applications.ViewModels
 {
@@ -27,7 +27,7 @@ namespace Gazeta.pl.Applications.ViewModels
         public ShellViewModel(IShellView view)
             : base(view)
         {
-            this.KolekcjaWiadomosci = new ObservableCollection<NewsData>();
+            this.KolekcjaWiadomosci = new ObservableCollection<INews>();
 
             onOff = onoff.Wyłączony.ToString();
             naŻywo = false;
@@ -107,7 +107,7 @@ namespace Gazeta.pl.Applications.ViewModels
             }
         }
 
-        public ObservableCollection<NewsData> KolekcjaWiadomosci { get; set; }
+        public ObservableCollection<INews> KolekcjaWiadomosci { get; set; }
         
 
         public void Show()
@@ -153,7 +153,7 @@ namespace Gazeta.pl.Applications.ViewModels
 
         void WczytajXML()
         {
-            var wiadomosci = XMLFile.XMLToType<ObservableCollection<NewsData>>();
+            var wiadomosci = XMLFile.XMLToType<ObservableCollection<INews>>();
 
             foreach (var w in wiadomosci)
             {
@@ -164,50 +164,89 @@ namespace Gazeta.pl.Applications.ViewModels
         
         void dt_Tick(object sender, System.EventArgs e)
         {
-            gazetaNews.Gazeta gazeta = new gazetaNews.Gazeta();
-
             Czas = System.DateTime.Now.ToString("HH:mm:ss");
-          
-            var wiadomosc = gazeta.PobierzWiadomosc();
 
-            if (!wiadomosc.isNull)
+            var pluginManager = new PluginManager();
+
+            var czyJest = false;
+
+            foreach (var news in pluginManager.GetNews())
             {
-                bool czyJest = false;
-
                 foreach (var k in KolekcjaWiadomosci)
                 {
-                    if (StructuralComparisons.StructuralEqualityComparer.Equals(k.hash, wiadomosc.hash))
+                    if (StructuralComparisons.StructuralEqualityComparer.Equals(k.ImgUrl.GetHashCode(), news.ImgUrl.GetHashCode()))
                     {
                         czyJest = true;
                     }
 
-                    if (naŻywo)
+                    if (naŻywo && czyJest)
                     {
-                        if (k.obrazek_link != wiadomosc.obrazek_link)
-                        {
-                            czyJest = false;
-                        }
+                        czyJest = false;
                     }
                 }
+
+
+                if (!czyJest)
+                {
+                    KolekcjaWiadomosci.Insert(0, news);
+                }
+
+
+            }
+
+
+
+
+            //XMLFile.TypeToXML<ObservableCollection<INews>>(KolekcjaWiadomosci);
+
+
+
+        //    gazetaNews.Gazeta gazeta = new gazetaNews.Gazeta();
+
+            
+
+
+          
+        //    var wiadomosc = gazeta.PobierzWiadomosc();
+
+        //    if (!wiadomosc.isNull)
+        //    {
+        //        bool czyJest = false;
+
+        //        foreach (var k in KolekcjaWiadomosci)
+        //        {
+        //            if (StructuralComparisons.StructuralEqualityComparer.Equals(k.hash, wiadomosc.hash))
+        //            {
+        //                czyJest = true;
+        //            }
+
+        //            if (naŻywo)
+        //            {
+        //                if (k.obrazek_link != wiadomosc.obrazek_link)
+        //                {
+        //                    czyJest = false;
+        //                }
+        //            }
+        //        }
 
               
 
                 
                
-                if (!czyJest)  
-                {
-                    KolekcjaWiadomosci.Insert(0, wiadomosc);
+        //        if (!czyJest)  
+        //        {
+        //            KolekcjaWiadomosci.Insert(0, wiadomosc);
 
-                    Notification notification = new Notification("Gazeta.pl", "Test2", wiadomosc.czasZapisania.ToString(), wiadomosc.naglowek, wiadomosc.opis);
+        //            Notification notification = new Notification("Gazeta.pl", "Test2", wiadomosc.czasZapisania.ToString(), wiadomosc.naglowek, wiadomosc.opis);
                  
-                    growl.Notify(notification);
+        //            growl.Notify(notification);
 
                     
-                    XMLFile.TypeToXML<ObservableCollection<NewsData>>(KolekcjaWiadomosci);
-                }
+        //            XMLFile.TypeToXML<ObservableCollection<NewsData>>(KolekcjaWiadomosci);
+        //        }
+        //    }
+        
             }
-        }
-
        
     }
 }

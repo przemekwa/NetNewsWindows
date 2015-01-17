@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NetNewsWindowsPluginManager
 {
-    interface INewsPlugin
+    public interface INewsPlugin
     {
         IEnumerable<INews> GetNews();
     }
