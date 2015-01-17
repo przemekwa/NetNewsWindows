@@ -42,7 +42,7 @@ namespace Gazeta.pl.Applications.ViewModels
         }
 
 
-        public string Title { get { return ApplicationInfo.ProductName; } }
+        public string Title { get { return "Net News Windows"; } }
 
         public ICommand ExitCommand { get { return exitCommand; } }
 
