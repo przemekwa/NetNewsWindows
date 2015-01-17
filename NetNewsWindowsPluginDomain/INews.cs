@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace NetNewsWindowsPluginDomain
 {
-    public interface INews
+    public interface INews 
     {
         string NewsUrl { get; }
         string Header { get; }

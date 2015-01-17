@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetNewsWindowsPluginManager
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetNewsWindowsPluginDomain", "NetNewsWindowsPluginDomain\NetNewsWindowsPluginDomain.csproj", "{BB660EB2-6DFB-4E7B-81C5-4D2B4C288F3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bbcNews", "bbcNews\bbcNews.csproj", "{6FCC5B73-270F-498B-A0EA-278F57FE6C3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{BB660EB2-6DFB-4E7B-81C5-4D2B4C288F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB660EB2-6DFB-4E7B-81C5-4D2B4C288F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB660EB2-6DFB-4E7B-81C5-4D2B4C288F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FCC5B73-270F-498B-A0EA-278F57FE6C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FCC5B73-270F-498B-A0EA-278F57FE6C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FCC5B73-270F-498B-A0EA-278F57FE6C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FCC5B73-270F-498B-A0EA-278F57FE6C3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

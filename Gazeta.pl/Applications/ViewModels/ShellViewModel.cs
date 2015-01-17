@@ -218,10 +218,12 @@ namespace Gazeta.pl.Applications.ViewModels
 
             }
 
+           // XMLFile.TypeToXML<ObservableCollection<INews>>(KolekcjaWiadomosci);
 
 
 
-            //XMLFile.TypeToXML<ObservableCollection<INews>>(KolekcjaWiadomosci);
+
+           
 
 
 
