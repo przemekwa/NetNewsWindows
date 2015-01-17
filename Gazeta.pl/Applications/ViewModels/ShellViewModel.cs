@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using Growl.Connector;
 using System.Drawing;
 using NetNewsWindowsPluginManager;
+using NetNewsWindowsPluginDomain;
 
 namespace Gazeta.pl.Applications.ViewModels
 {

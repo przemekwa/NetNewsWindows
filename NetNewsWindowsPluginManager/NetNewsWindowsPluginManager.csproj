@@ -40,12 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="INews.cs" />
-    <Compile Include="INewsPlugin.cs" />
     <Compile Include="PluginInterfaceBuilder.cs" />
-    <Compile Include="IPluginManager.cs" />
     <Compile Include="PluginManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetNewsWindowsPluginDomain\NetNewsWindowsPluginDomain.csproj">
+      <Project>{bb660eb2-6dfb-4e7b-81c5-4d2b4c288f3f}</Project>
+      <Name>NetNewsWindowsPluginDomain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

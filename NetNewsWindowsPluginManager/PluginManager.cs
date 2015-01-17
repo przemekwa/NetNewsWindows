@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NetNewsWindowsPluginDomain;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace NetNewsWindowsPluginManager
 {
-    public class PluginManager : IPluginManager
+    public class PluginManager 
     {
         public IEnumerable<INews> GetNews()
         {
@@ -23,9 +24,14 @@ namespace NetNewsWindowsPluginManager
             }
         }
 
+        public IEnumerable<INewsPlugin> GetPlugins()
+        {
+            return this.GetNewsPlugins();
+        }
+
         public IEnumerable<INewsPlugin> GetNewsPlugins()
         {
-            DirectoryCatalog dir = new DirectoryCatalog(@"D:\Dropbox\c#\Projects\Gazeta.pl\gazetaNews\bin\Debug");
+            DirectoryCatalog dir = new DirectoryCatalog(AppDomain.CurrentDomain.BaseDirectory + @"\plugins");
 
             var builder = new PluginInterfaceBuilder();
 
