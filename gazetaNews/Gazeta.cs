@@ -30,7 +30,7 @@
                     return new EmptyNews();
                 }
 
-                var nagłowek = doc.DocumentNode.SelectSingleNode("//h2[@class=\"mt_pict_title \"]/a/span[@class=\"title\"]");
+                var nagłowek = doc.DocumentNode.SelectSingleNode("//div[@class=\"col-md-8 col-sm-8 col-xs-12 mt_pict\"]/h2/a/span[@class=\"title\"]");
                 
                 if (nagłowek != null)
                 {
