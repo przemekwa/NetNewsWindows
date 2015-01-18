@@ -7,7 +7,7 @@
         xmlns:l="clr-namespace:Gazeta.pl.Presentation.Converters"
         xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         mc:Ignorable="d" Title="{Binding Title}"  Icon="Ikona.ico" 
-        d:DataContext="{d:DesignInstance vm:ShellViewModel}" Height="557" Width="927">
+        d:DataContext="{d:DesignInstance vm:ShellViewModel}" Height="557" Width="1000">
     <controls:MetroWindow.Resources>
         <l:DateTimeToString x:Key="Converter"></l:DateTimeToString>
     </controls:MetroWindow.Resources>
@@ -60,7 +60,7 @@
                     
                 </StackPanel>
                 <DockPanel>
-                    <ListView Height="370" ItemsSource="{Binding KolekcjaWiadomosci}" HorizontalAlignment="Left" Margin="20,20,0,20" Width="864">
+                    <ListView Height="370" ItemsSource="{Binding KolekcjaWiadomosci}" HorizontalAlignment="Left" Margin="20,20,0,20" Width="964">
                     <ListView.ItemTemplate>
                         <DataTemplate >
                             <StackPanel  Orientation="Horizontal">
