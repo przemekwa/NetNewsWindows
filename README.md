@@ -11,13 +11,19 @@ Projekt składa się z:
 
 ##Szybki start:
 
-Aplikacja działa z .NE 4.5 i pozwala na odświeżenie wiadomości co 20 minut. Aplikacja wyświetla wiadomości w głównym oknie oraz zapisuje je do pliku XML. Aplikacja obsługuje pluginy. Każdy portal to osbny plugin. Każdy plugin implementuje interfejs INewsPlugin.
+Aplikacja działa z .NE 4.5 i pozwala na odświeżenie wiadomości co 20 minut. Aplikacja wyświetla wiadomości w głównym oknie oraz zapisuje je do pliku XML. Aplikacja obsługuje pluginy. Każdy portal to osobny plugin. Każdy plugin implementuje interfejs INewsPlugin.
+
+W tecj chwili dostępne są:
+
+- Plugin do gazeta.pl
+- Plugin do BBC.com
+
 
 W planach na 2015 jest:
 
 1. Stworzenie z aplikacji gazeta.pl aplikacji pluginowej do której będzie można dołanczać kolejne biblioteki z różnych portali. Zrobione!!!.
 2. Poprawić kod.
-3. Napisać nowe pluginy.
+3. Napisać nowe pluginy. Zrobione!!! 
 
 
 
