@@ -21,6 +21,7 @@ namespace gazetaNews
         public string obrazek_link { get; set; }
         public string opis { get; set; }
         public byte[] hash { get; set; }
+        public string gazetaPlUrl { get; set; }
 
         public string NewsUrl
         {
@@ -46,6 +47,12 @@ namespace gazetaNews
         public DateTime TimeUpdate
         {
             get { return this.czasZapisania; }
+        }
+
+
+        public string OwnerImgUrl
+        {
+            get { return this.gazetaPlUrl; }
         }
     }
     

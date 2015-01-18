@@ -51,6 +51,10 @@ namespace bbcNews
 
             news.TimeUpdate = DateTime.Now;
 
+            var ownerImgUrl = html.SelectSingleNode("//abbr/img");
+
+            news.OwnerImgUrl = ownerImgUrl.GetAttributeValue("src","empty");
+
             return news;
 
         }

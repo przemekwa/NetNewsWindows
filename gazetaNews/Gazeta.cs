@@ -34,6 +34,8 @@
                     return new EmptyNews();
                 }
 
+                var logo = doc.DocumentNode.SelectSingleNode("//header[@class=\"\"]");
+
                 var nagłowek = doc.DocumentNode.SelectSingleNode("//div[@class=\"col-md-8 col-sm-8 col-xs-12 mt_pict\"]/h2/a/span[@class=\"title\"]");
                 
                 if (nagłowek != null)

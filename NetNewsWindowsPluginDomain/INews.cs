@@ -14,6 +14,7 @@ namespace NetNewsWindowsPluginDomain
         string News { get; }
         string ImgUrl { get; }
         DateTime TimeUpdate { get; }
+        string OwnerImgUrl { get; }
 
     }
 }

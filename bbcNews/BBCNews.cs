@@ -33,8 +33,13 @@ namespace bbcNews
             set;
         }
 
-
         public DateTime TimeUpdate
+        {
+            get;
+            set;
+        }
+
+        public string OwnerImgUrl
         {
             get;
             set;
