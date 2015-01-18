@@ -32,5 +32,12 @@ namespace bbcNews
             get;
             set;
         }
+
+
+        public DateTime TimeUpdate
+        {
+            get;
+            set;
+        }
     }
 }

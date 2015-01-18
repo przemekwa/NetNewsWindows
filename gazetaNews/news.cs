@@ -41,6 +41,12 @@ namespace gazetaNews
         {
             get { return this.obrazek_link; }
         }
+
+
+        public DateTime TimeUpdate
+        {
+            get { return this.czasZapisania; }
+        }
     }
     
     public class News : NewsData

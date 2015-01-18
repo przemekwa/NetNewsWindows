@@ -44,9 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BBCNews.cs" />
-    <Compile Include="BBCNewsSite.cs" />
+    <Compile Include="BBC.cs" />
     <Compile Include="INewsBuldier.cs" />
-    <Compile Include="NewsBuldier.cs" />
+    <Compile Include="MainNewsBuldier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

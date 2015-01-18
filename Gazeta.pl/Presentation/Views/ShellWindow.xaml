@@ -67,7 +67,7 @@
                                 <Image Width="200"  Margin="10"  Source="{Binding ImgUrl}"></Image>
                                 <TextBlock Margin="10" TextWrapping="Wrap" Width="170" Text="{Binding Header}"></TextBlock>
                                 <TextBlock Margin="10" TextWrapping="Wrap" Width="170" Text="{Binding News}"></TextBlock>
-                                <TextBlock Margin="10" TextWrapping="Wrap" Width="170" Text="{Binding czasZapisania, Converter={StaticResource Converter}}"></TextBlock>
+                                    <TextBlock Margin="10" TextWrapping="Wrap" Width="170" Text="{Binding TimeUpdate, Converter={StaticResource Converter}}"></TextBlock>
                                 <TextBlock Margin="10" >
                                             <Hyperlink NavigateUri="{Binding NewsUrl}" RequestNavigate="Hyperlink_RequestNavigate" >Link</Hyperlink>
                                 </TextBlock>
