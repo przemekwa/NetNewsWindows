@@ -198,14 +198,17 @@ namespace Gazeta.pl.Applications.ViewModels
             {
                 foreach (var k in KolekcjaWiadomosci)
                 {
-                    if (StructuralComparisons.StructuralEqualityComparer.Equals(k.ImgUrl.GetHashCode(), news.ImgUrl.GetHashCode()))
+                    if (news != null)
                     {
-                        czyJest = true;
-                    }
+                        if (StructuralComparisons.StructuralEqualityComparer.Equals(k.ImgUrl.GetHashCode(), news.ImgUrl.GetHashCode()))
+                        {
+                            czyJest = true;
+                        }
 
-                    if (naŻywo && czyJest)
-                    {
-                        czyJest = false;
+                        if (naŻywo && czyJest)
+                        {
+                            czyJest = false;
+                        }
                     }
                 }
 
