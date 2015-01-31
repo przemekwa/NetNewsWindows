@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace bbcNews
 {
-    class BBCNews : INews
+     class BBCNews : INews
     {
         public string NewsUrl
         {

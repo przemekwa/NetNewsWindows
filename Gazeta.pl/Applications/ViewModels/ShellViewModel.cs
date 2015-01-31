@@ -196,10 +196,14 @@ namespace Gazeta.pl.Applications.ViewModels
 
             foreach (var news in pluginManager.GetNews())
             {
+                if (news == null || string.IsNullOrEmpty(news.ImgUrl))
+                {
+                    continue;
+                }
+
                 foreach (var k in KolekcjaWiadomosci)
                 {
-                    if (news != null)
-                    {
+
                         if (StructuralComparisons.StructuralEqualityComparer.Equals(k.ImgUrl.GetHashCode(), news.ImgUrl.GetHashCode()))
                         {
                             czyJest = true;
@@ -209,7 +213,6 @@ namespace Gazeta.pl.Applications.ViewModels
                         {
                             czyJest = false;
                         }
-                    }
                 }
 
 

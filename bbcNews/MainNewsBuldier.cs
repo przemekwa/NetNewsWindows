@@ -28,6 +28,7 @@ namespace bbcNews
             }
 
             news.Header = aMarkup.GetAttributeValue("title", "empty");
+
             news.NewsUrl = new Uri(BBC.BBCUrl, aMarkup.GetAttributeValue("href", "empty")).ToString();
 
             var imgMarkup = aMarkup.SelectSingleNode("./img");
