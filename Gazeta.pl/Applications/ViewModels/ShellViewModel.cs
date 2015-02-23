@@ -12,6 +12,8 @@ using System.Drawing;
 using NetNewsWindowsPluginManager;
 using NetNewsWindowsPluginDomain;
 using System.Linq;
+using System.Xml.Serialization;
+using System.IO;
 
 namespace Gazeta.pl.Applications.ViewModels
 {
@@ -29,7 +31,7 @@ namespace Gazeta.pl.Applications.ViewModels
         public ShellViewModel(IShellView view)
             : base(view)
         {
-            this.KolekcjaWiadomosci = new ObservableCollection<INews>();
+            this.KolekcjaWiadomosci = new ObservableCollection<Message>();
 
             onOff = onoff.Wyłączony.ToString();
             naŻywo = false;
@@ -129,7 +131,7 @@ namespace Gazeta.pl.Applications.ViewModels
             }
         }
 
-        public ObservableCollection<INews> KolekcjaWiadomosci { get; set; }
+        public ObservableCollection<Message> KolekcjaWiadomosci { get; set; }
         
 
         public void Show()
@@ -166,7 +168,7 @@ namespace Gazeta.pl.Applications.ViewModels
                 dt.Tick += dt_Tick;
 
                 dt.Start();
-                dt_Tick(new object(), new System.EventArgs());
+                dt_Tick(null, null);
 
                 
                 onOff = onoff.Włączony.ToString();
@@ -175,7 +177,7 @@ namespace Gazeta.pl.Applications.ViewModels
 
         void WczytajXML()
         {
-            var wiadomosci = XMLFile.XMLToType<ObservableCollection<INews>>();
+            var wiadomosci = XMLFile.XMLToType<ObservableCollection<Message>>();
 
             foreach (var w in wiadomosci)
             {
@@ -220,16 +222,15 @@ namespace Gazeta.pl.Applications.ViewModels
                 {
                     KolekcjaWiadomosci.Insert(0, news);
                 }
-
-
             }
 
-           // XMLFile.TypeToXML<ObservableCollection<INews>>(KolekcjaWiadomosci);
+
+
+            XMLFile.TypeToXML(KolekcjaWiadomosci);
 
 
 
-
-           
+         
 
 
 

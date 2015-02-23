@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BBCNews.cs" />
     <Compile Include="BBC.cs" />
     <Compile Include="INewsBuldier.cs" />
     <Compile Include="MainNewsBuldier.cs" />

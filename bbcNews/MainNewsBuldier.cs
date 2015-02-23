@@ -7,13 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace bbcNews
 {
     class MainNewsBuldier : INewsBuldier
     {
-        private BBCNews news = new BBCNews();
+        private Message news = new Message();
 
-        public INews Build(HtmlNode html)
+        public Message Build(HtmlNode html)
         {
             if (html == null)
             {

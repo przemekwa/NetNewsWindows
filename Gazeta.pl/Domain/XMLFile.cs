@@ -12,8 +12,11 @@ namespace Gazeta.pl.Domain
         {
             var fileName = typeof(T).Name + ".xml";
 
-            XmlSerializer xml = new XmlSerializer(typeof(T));
+            var type = ob.GetType();
 
+            XmlSerializer xml = new XmlSerializer(type);
+
+                       
             using (var file = new StreamWriter(fileName))
             {
                 xml.Serialize(file, ob);

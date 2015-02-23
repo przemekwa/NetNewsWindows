@@ -1,13 +1,13 @@
-﻿using NetNewsWindowsPluginDomain;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace bbcNews
+namespace NetNewsWindowsPluginDomain
 {
-     class BBCNews : INews
+    [Serializable]
+    public class Message : INews
     {
         public string NewsUrl
         {
@@ -44,5 +44,7 @@ namespace bbcNews
             get;
             set;
         }
+
+
     }
 }

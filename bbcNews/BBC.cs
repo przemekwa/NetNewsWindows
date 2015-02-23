@@ -9,22 +9,21 @@ using System.Threading.Tasks;
 
 namespace bbcNews
 {
-    
-      [Export(typeof(INewsPlugin))]
+    [Export(typeof(INewsPlugin))]
     public class BBC : INewsPlugin
     {
         internal static readonly Uri BBCUrl = new Uri("http://www.bbc.com/");
 
-        public IEnumerable<INews> GetNews()
+        public IEnumerable<Message> GetNews()
         {
-            var rezult = new List<INews>();
+            var rezult = new List<Message>();
 
             rezult.Add(this.BBCNewsBuldier(new MainNewsBuldier()));
 
             return rezult;
         }
 
-        private INews BBCNewsBuldier(MainNewsBuldier newsBuldier)
+        private Message BBCNewsBuldier(MainNewsBuldier newsBuldier)
         {
              HtmlWeb web = new HtmlWeb();
              HtmlDocument doc = new HtmlDocument();
@@ -35,7 +34,7 @@ namespace bbcNews
             }
             catch
             {
-                return new BBCNews();
+                return new Message();
             }
 
             return newsBuldier.Build(doc.DocumentNode);

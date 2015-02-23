@@ -8,6 +8,6 @@ namespace NetNewsWindowsPluginDomain
 {
     public interface INewsPlugin
     {
-        IEnumerable<INews> GetNews();
+        IEnumerable<Message> GetNews();
     }
 }

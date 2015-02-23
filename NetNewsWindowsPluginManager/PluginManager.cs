@@ -13,7 +13,7 @@ namespace NetNewsWindowsPluginManager
 {
     public class PluginManager 
     {
-        public IEnumerable<INews> GetNews()
+        public IEnumerable<Message> GetNews()
         {
             foreach (var plugin in this.GetNewsPlugins())
             {
@@ -36,5 +36,8 @@ namespace NetNewsWindowsPluginManager
 
             return builder.Plugins;
         }
+
+
+        
     }
 }

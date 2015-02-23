@@ -13,9 +13,9 @@
     [Export(typeof(INewsPlugin))]
     public class Gazeta : INewsPlugin
     {
-        public NewsData PobierzWiadomosc()
+        public Message PobierzWiadomosc()
         {
-            var lista = new List<News>();
+            var lista = new List<Message>();
 
                 HtmlWeb web = new HtmlWeb
                 {
@@ -31,7 +31,7 @@
                 }
                 catch
                 {
-                    return new EmptyNews();
+                    return null;
                 }
 
                 var nagłowek = doc.DocumentNode.SelectSingleNode("//div[@class=\"col-md-8 col-sm-8 col-xs-12 mt_pict\"]/h2/a/span[@class=\"title\"]");
@@ -46,29 +46,27 @@
 
                         if (opis != null)
                         {
-                            var wiadomosc = new News();
+                            var wiadomosc = new Message();
 
-                            wiadomosc.link = opis.GetAttributeValue("href", "brak");
+                            wiadomosc.NewsUrl = opis.GetAttributeValue("href", "brak");
 
-                            wiadomosc.naglowek = nagłowek.InnerText;
+                            wiadomosc.Header = nagłowek.InnerText;
 
-                            wiadomosc.obrazek_link = obrazek.GetAttributeValue("src", "");
+                            wiadomosc.ImgUrl = obrazek.GetAttributeValue("src", "");
 
-                            wiadomosc.czasZapisania = System.DateTime.Now;
+                            wiadomosc.TimeUpdate = System.DateTime.Now;
 
-                            wiadomosc.opis = opis.InnerHtml;
-
-                            wiadomosc.hash = CheckSum.Create(wiadomosc.link);
+                            wiadomosc.News = opis.InnerHtml;
 
                             return wiadomosc;
                         }
                     }
                 }
-                return new EmptyNews();
+                return new Message();
             
         }
 
-        public IEnumerable<INews> GetNews()
+        public IEnumerable<Message> GetNews()
         {
             yield return this.PobierzWiadomosc();
         }

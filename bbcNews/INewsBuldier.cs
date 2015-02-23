@@ -10,6 +10,6 @@ namespace bbcNews
 {
     interface INewsBuldier
     {
-        INews Build(HtmlNode htmlNode);
+        Message Build(HtmlNode htmlNode);
     }
 }
