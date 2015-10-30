@@ -194,33 +194,39 @@ namespace Gazeta.pl.Applications.ViewModels
 
             this.PluginNumber = (short)pluginManager.GetNewsPlugins().Count();
 
-            var czyJest = false;
+           
+
+
+            var test = pluginManager.GetNews().ToList();
+
+
+            
 
             foreach (var news in pluginManager.GetNews())
             {
-                if (news == null || string.IsNullOrEmpty(news.ImgUrl))
-                {
-                    continue;
-                }
+                var czyJest = false;
 
-                foreach (var k in KolekcjaWiadomosci)
+                foreach (var k in KolekcjaWiadomosci.Where(k=>k.Header != null))
                 {
+                    czyJest = news.Header == k.Header;
 
-                        if (StructuralComparisons.StructuralEqualityComparer.Equals(k.ImgUrl.GetHashCode(), news.ImgUrl.GetHashCode()))
-                        {
-                            czyJest = true;
-                        }
 
                         if (naŻywo && czyJest)
                         {
                             czyJest = false;
                         }
+
+                    if (czyJest)
+                    {
+                        break;
+                    }
                 }
 
 
                 if (!czyJest)
                 {
                     KolekcjaWiadomosci.Insert(0, news);
+                    czyJest = false;
                 }
             }
 

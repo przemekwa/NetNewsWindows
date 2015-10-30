@@ -15,8 +15,6 @@ namespace Gazeta.pl.Applications.Controllers
             this.shellViewModel = shellViewModel;
         }
 
-
-
         public void Initialize()
         {
         }
