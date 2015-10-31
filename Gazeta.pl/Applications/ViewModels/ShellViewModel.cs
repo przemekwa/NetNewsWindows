@@ -208,7 +208,9 @@ namespace Gazeta.pl.Applications.ViewModels
 
                 foreach (var k in KolekcjaWiadomosci.Where(k=>k.Header != null))
                 {
-                    czyJest = news.Header == k.Header;
+                    try
+                    {
+                        czyJest = news.Header == k.Header;
 
 
                         if (naŻywo && czyJest)
@@ -216,10 +218,16 @@ namespace Gazeta.pl.Applications.ViewModels
                             czyJest = false;
                         }
 
-                    if (czyJest)
-                    {
-                        break;
+                        if (czyJest)
+                        {
+                            break;
+                        }
                     }
+                    catch (Exception e)
+                    {
+                        continue;
+                    }
+                    
                 }
 
 
