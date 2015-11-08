@@ -14,6 +14,7 @@ using NetNewsWindowsPluginDomain;
 using System.Linq;
 using System.Xml.Serialization;
 using System.IO;
+using System;
 
 namespace Gazeta.pl.Applications.ViewModels
 {
@@ -223,7 +224,7 @@ namespace Gazeta.pl.Applications.ViewModels
                             break;
                         }
                     }
-                    catch (Exception e)
+                    catch (Exception e1)
                     {
                         continue;
                     }
