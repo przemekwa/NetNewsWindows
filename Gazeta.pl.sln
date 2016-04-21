@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetNewsWindowsPluginDomain"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bbcNews", "bbcNews\bbcNews.csproj", "{6FCC5B73-270F-498B-A0EA-278F57FE6C3C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{5580D5AE-5519-4E2F-B21D-448BAD63B4C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Uniwersal Windows App", "Uniwersal Windows App", "{861CEA77-9228-4106-8BD7-9FA9C39592F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Win32 WFP App", "Win32 WFP App", "{5FACC0A9-9343-4B19-A298-E7955EC60AE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +96,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F9AE5C2-8A59-4124-A774-298CC4127C81} = {5FACC0A9-9343-4B19-A298-E7955EC60AE4}
+		{25012E05-21E8-483A-9F6C-AFAFC1D6F276} = {5580D5AE-5519-4E2F-B21D-448BAD63B4C0}
+		{6FCC5B73-270F-498B-A0EA-278F57FE6C3C} = {5580D5AE-5519-4E2F-B21D-448BAD63B4C0}
 	EndGlobalSection
 EndGlobal
