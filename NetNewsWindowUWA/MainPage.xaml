@@ -14,8 +14,9 @@
             <Grid >
                 <StackPanel>
                     <StackPanel Orientation="Horizontal">
-                       
-                            <Grid>
+
+
+                        <Grid>
                                 <Grid.RowDefinitions>
                                     <RowDefinition></RowDefinition>
                                     <RowDefinition></RowDefinition>
@@ -35,9 +36,9 @@
 
 
                             </Grid>
-                     
-                       
-                            <Grid>
+                    
+
+                        <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition></ColumnDefinition>
                                     <ColumnDefinition></ColumnDefinition>
