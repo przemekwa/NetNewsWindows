@@ -22,9 +22,13 @@ namespace NetNewsWindowUWA
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        public string onOff { get; set; } = "Włączony";
+
         public MainPage()
         {
             this.InitializeComponent();
+            this.DataContext = this;
         }
+
     }
 }
