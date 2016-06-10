@@ -3,6 +3,7 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:NetNewsWindowUWA"
+    xmlns:prism="using:Prism.Windows.Mvvm"
     RequestedTheme="Light">
 
 </Application>

@@ -5,6 +5,7 @@
     xmlns:local="using:NetNewsWindowUWA"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:prism="using:Prism.Windows.Mvvm"
     Width="700"
     Height="300"
     mc:Ignorable="d">
