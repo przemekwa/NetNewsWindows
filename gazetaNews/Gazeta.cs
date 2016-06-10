@@ -17,53 +17,58 @@
         {
             var lista = new List<Message>();
 
-                HtmlWeb web = new HtmlWeb
-                {
-                    AutoDetectEncoding = false,
-                    OverrideEncoding = Encoding.GetEncoding("iso-8859-2")
-                };
+            HtmlWeb web = new HtmlWeb
+            {
+                AutoDetectEncoding = false,
+                OverrideEncoding = Encoding.GetEncoding("iso-8859-2")
+            };
 
-                HtmlDocument doc = new HtmlDocument();
+            HtmlDocument doc = new HtmlDocument();
 
-                try
-                {
-                    doc = web.Load("http://www.gazeta.pl/0,0.html");
-                }
-                catch
-                {
-                    return null;
-                }
+            try
+            {
+                doc = web.Load("http://www.gazeta.pl/0,0.html");
+            }
+            catch
+            {
+                return null;
+            }
 
-                var nagłowek = doc.DocumentNode.SelectSingleNode("//div[@class=\"col-md-8 col-sm-8 col-xs-12 mt_pict\"]/h2/a/span[@class=\"title\"]");
-                
-                if (nagłowek != null)
-                {
-                    var obrazek = doc.DocumentNode.SelectSingleNode("//div[@class=\"mt_pict_layer\"]/a[@id=\"LinkArea:MT\"]/img");
+            var mainDivTag = doc.DocumentNode.SelectSingleNode("//div[@class=\"mt_pict_layer\"]");
 
-                    if (obrazek != null)
-                    {
-                        var opis = doc.DocumentNode.SelectSingleNode("//div[@class=\"mt_txt_layer\"]/p/a[@id=\"LinkArea:MT\"]");
-
-                        if (opis != null)
-                        {
-                            var wiadomosc = new Message();
-
-                            wiadomosc.NewsUrl = opis.GetAttributeValue("href", "brak");
-
-                            wiadomosc.Header = nagłowek.InnerText;
-
-                            wiadomosc.ImgUrl = obrazek.GetAttributeValue("src", "");
-
-                            wiadomosc.TimeUpdate = System.DateTime.Now;
-
-                            wiadomosc.News = opis.InnerHtml;
-
-                            return wiadomosc;
-                        }
-                    }
-                }
+            if (mainDivTag == null)
+            {
                 return new Message();
-            
+            }
+
+            var linkTag = mainDivTag.SelectSingleNode("a");
+
+            if (linkTag == null)
+            {
+                return new Message();
+            }
+
+            var imgTag = linkTag.SelectSingleNode("img");
+
+            if (imgTag == null)
+            {
+                return new Message();
+            }
+
+
+            var wiadomosc = new Message();
+
+            wiadomosc.NewsUrl = linkTag.GetAttributeValue("href", "brak");
+
+            wiadomosc.Header = linkTag.GetAttributeValue("title", "brak");
+
+            wiadomosc.ImgUrl = imgTag.GetAttributeValue("src", "");
+
+            wiadomosc.TimeUpdate = System.DateTime.Now;
+
+            wiadomosc.News = linkTag.GetAttributeValue("title", "brak");
+
+            return wiadomosc;
         }
 
         public IEnumerable<Message> GetNews()
