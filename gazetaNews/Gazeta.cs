@@ -13,26 +13,37 @@
     [Export(typeof(INewsPlugin))]
     public class Gazeta : INewsPlugin
     {
-        public Message PobierzWiadomosc()
-        {
-            var lista = new List<Message>();
+        private HtmlDocument doc;
 
+        public Gazeta()
+        {
             HtmlWeb web = new HtmlWeb
             {
                 AutoDetectEncoding = false,
                 OverrideEncoding = Encoding.GetEncoding("iso-8859-2")
             };
 
-            HtmlDocument doc = new HtmlDocument();
+            this.doc = new HtmlDocument();
 
-            try
-            {
-                doc = web.Load("http://www.gazeta.pl/0,0.html");
-            }
-            catch
-            {
-                return null;
-            }
+            doc = web.Load("http://www.gazeta.pl/0,0.html");
+        }
+
+
+        public Message PobierzWiadomośćNaŻywo()
+        {
+            var mainDivTag = doc.DocumentNode.SelectSingleNode("//div[@class=\"col-md-12 col-sm-12 col-xs-12 slider_area two_themes\"]");
+
+            var f = mainDivTag.SelectSingleNode("a[@class=\"cutter_pict_layer pict_container\"]");
+
+
+            return null;
+        }
+
+        public bool IsLiveMessage() => doc.DocumentNode.SelectSingleNode("//div[@class=\"mammoth_head\"]") != null;
+
+        public Message PobierzWiadomosc()
+        {
+            var lista = new List<Message>();
 
             var mainDivTag = doc.DocumentNode.SelectSingleNode("//div[@class=\"mt_pict_layer\"]");
 
@@ -73,7 +84,16 @@
 
         public IEnumerable<Message> GetNews()
         {
-            yield return this.PobierzWiadomosc();
+            var result = new List<Message>();
+
+            if (this.IsLiveMessage())
+            {
+                result.Add(this.PobierzWiadomośćNaŻywo());
+            }
+
+            result.Add(this.PobierzWiadomosc());
+
+            return result;
         }
     }
 }
